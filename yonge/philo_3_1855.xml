@@ -1,13 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Works of Philo Judaeus</title>
+        <sponsor>University of Leipzig</sponsor>
+        <funder>European Social Fund Saxony</funder>
+        <principal>Gregory Crane</principal>
+        <respStmt>
+          <persName xml:id="Jouve">Jouve</persName>
+          <resp>OCR-ed, corrected and encoded the text</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Greta Franzini</persName>
+          <resp>Project Manager (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Simona Stoyanova</persName>
+          <resp>Project Assistant (University of Leipzig)</resp>
+        </respStmt>
+        <respStmt>
+          <persName>Bruce Robertson</persName>
+          <resp>Technical Advisor (Mount Allison University)</resp>
+        </respStmt>
+      </titleStmt>
 
+      <publicationStmt>
+        <authority>University of Leipzig</authority>
+        <idno type="filename">philo_4_1855.xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        </availability>
+        <date>2014</date>
+        <publisher>University of Leipzig</publisher>
+        <pubPlace>Germany</pubPlace>
+      </publicationStmt>
 
-<pb n="1"/>
+      <sourceDesc>
+        <listBibl xml:lang="la">
+          <biblStruct>
+            <monogr>
+              <editor>
+                <persName>
+                  <name xml:lang="en">Charles Duke Yonge</name>
+                </persName>
+              </editor>
+              <author>Philo Alexandrinus</author>
+              <title>On the Contemplative Life, or on the Virtues of Suppliants</title>
+              <title>On the Incorruptibility of the World</title>
+              <title>Against Flaccus</title>
+              <title>On the Virtues and on the Office of Ambassadors. Adressed to Caius</title>
+              <title>Concerning the World</title>
+              <title>The Fragments of the Lost Works</title>
+              <title>Fragments extracted from the Parallels of John of Damascus</title>
+              <title>Fragments from a Monkish Manuscript</title>
+              <title>Fragments preserved by Antonius</title>
+              <title>Fragments from an Anonymous Collection in the Bodleian Library at Oxford</title>
+              <title>Fragments from an Unpublished Manuscript in the Library of the French King</title>
+              <title>A Volume of Questions, and Solutions to those Questions, which arise in Genesis</title>
+              <imprint>
+                <publisher>Henry G. Bohn</publisher>
+                <pubPlace>London</pubPlace>
+                <date>1855</date>
+              </imprint>
+              <biblScope unit="volume">4</biblScope>
+            </monogr>
+            <ref
+              target="https://archive.org/details/worksphilojudaeu04philuoft"
+              >Internet Archive</ref>
+
+          </biblStruct>
+        </listBibl>
+      </sourceDesc>
+
+    </fileDesc>
+    <encodingDesc>
+      <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+    </encodingDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+
+  </teiHeader>
+  <text>
+    <body>
+      <div type="edition"><pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="3"/>
+        <pb n="4"/>
+        <pb n="5"/>
+        <pb n="8"/>
+        <pb n="-"/>
+        <pb n="-"/>
+        <pb n="-"/>
+
+        <div type="textpart" subtype="chapter">
+          <head>
+            <title type="main">CONTENTS.</title>
+          </head>
+          <p>PAGE</p>
+          <p>On a Contemplative Life, or on the Virtues of Suppliants 1</p>
+          <p>On the Incorruptibility of the World ...... 21</p>
+          <p>Against Flaccus ............. 61</p>
+          <p>On the Virtues and on the Office of Ambassadors. <lb/>
+            Addressed to Caius ..... 99</p>
+          <p>Concerning the World 180</p>
+          <p>The Fragments of the Lost Works ..... 210</p>
+          <p>Fragments extracted from the Parallels of John of Da­ <lb/>
+            mascus ..... 242</p>
+          <p>Fragments from a Monkish Manuscript ..... 257</p>
+          <p>Fragments preserved by Antonius .....271</p>
+          <p>Fragments from an Anonymous Collection in the Bod­ <lb/>
+            leian Library at Oxford .....276</p>
+          <p>Fragments from an Unpublished Manuscript in the <lb/>
+            Library of the French King ..... 277</p>
+          <p>A Volume of Questions, and Solutions to those Ques­ <lb/>
+            tions, which arise in Genesis .....2S4</p>
+          <p>Index to the Four Volumes ..... 465</p><pb n="-"/>
+            <pb n="-"/>
+
+        </div>
+  <pb n="1"/>
 
 
 <div type="textpart" subtype="chapter">
 <head>A TREATISE ON THE LIFE OF MOSES, THAT IS TO SAY, ON THE THEOLOGY AND PROPHETIC OFFICE OF MOSES, BOOK I.</head>
 
 
-<milestone unit="chapter" n="1"/>I wave conceived the idea of writing the life of Moses,
+<p><milestone unit="chapter" n="1"/>I wave conceived the idea of writing the life of Moses,
 who, according to the account of some persons, was the
 lawgiver of the Jews, but according to others only an interpreter
 of the sacred laws, the greatest and most perfect man that ever
@@ -108,7 +236,7 @@ reason of the weakness of her nature, is disinclined to and
 unfitted for war), and that all the male children should be
 destroyed, that the population of their cities might not be
 increased, since a power which consists of a number of men is
-a fortress difficult to take and difficult to destroy.<ref n="1"/></p>
+a fortress difficult to take and difficult to destroy.<ref n="3.1"/></p>
 
 
 <p>Accordingly as the child Moses, as soon as he was born,
@@ -994,11 +1122,11 @@ thou shalt have thy brother, who will be a subordinate
 mouthpiece for thee, that he may utter to the multitude the words
 
 
-o 2
+
 
 
 <pb n="20"/>
-<note type="head">20 PHILO JUD&US.</note>
+
 
 
 which he receives from thee, while thou utterest to him the
@@ -1812,7 +1940,7 @@ with law. :
 of gain and of those riches which are held in the highest
 repute among men, God honoured him, and gave him
 instead the greatest and most perfect wealth; and this is the
-wealth<ref n="1"/> of all the earth and sea, and of all the rivers, and of
+wealth<ref n="35.1"/> of all the earth and sea, and of all the rivers, and of
 all the other elements, and all combinations whatever; for
 having judged him deserving of being made a partaker with
 himself in the portion which he had reserved for himself, he
@@ -2541,7 +2669,7 @@ for they became by turns lighter and heavier. Then,
 whenever they were lighter, so that he could hold them up on high,
 the alliance between God and his people was strengthened, and
 waxed mighty, and became more glorious. But whenever his
-hands sank down the enemy prevailed, God showing thus by &
+hands sank down the enemy prevailed, God showing thus by a
 figure that the earth and all the extremities of it were the
 appropriate inheritance of the one party, and the most sacred
 air the inheritance of the other. And as the heaven is in
@@ -2817,7 +2945,7 @@ were brethren descended from the same father and the same
 mother, and moreover were twins; for it was from two
 brothers, who had thus increased with numerous descendants,
 and had enjoyed a great productiveness of offspring, that each
-of their families had grown into a vast and numerous nation.<ref n="1"/></p>
+of their families had grown into a vast and numerous nation.<ref n="54.1"/></p>
 
 
 <p>But one of these nations had clung to its original abodes ;
@@ -3834,7 +3962,7 @@ no soldier any excuse for lagging behind. But our infant
 children, and our daughters, and wives, and mothers, and
 the bulk of our cattle, shall, if you have no objection, be
 left behind, afte: we have made houses for our children and
-wives, and +tables for our cattle that they may not be exposed
+wives, and tables for our cattle that they may not be exposed
 to any incursion of the enemy, and so suffer injury from being
 taken in unwalled and unprotected dwellings,”
 
@@ -3883,7 +4011,7 @@ authority.</p>
 </div>
 
 <div type="textpart" subtype="chapter">
-<head>A TREATISE ON THE LIFE OF MOSES, THAT IS TO SAY, ON THE THEOLOGY AND PROPHETIC OFFICE OF MOSES, BOOK II.</p>
+<head>A TREATISE ON THE LIFE OF MOSES, THAT IS TO SAY, ON THE THEOLOGY AND PROPHETIC OFFICE OF MOSES, BOOK II.</head>
 
 
 <p><milestone unit="chapter" n="1"/>Tue first volume of this treatise relates to the subject of
@@ -4142,7 +4270,7 @@ disturb or hinder the pure operations of the mind; but these
 passions are wont to be generated by fulness and satiety, so
 that at this time men feast, propitiating the Father of the
 universe with holy prayers, by which they are accustomed to
-solicit pardon for their former sins, and the acquisition an 
+solicit pardon for their former sins, and the acquisition an
 enjoyment of new blessings.</p>
 
 
@@ -4266,7 +4394,7 @@ correction of their lives.</p>
 <p><milestone unit="chapter" n="7"/>Therefore, being settled in a secret place, and nothing
 
 
-Vou II. @
+
 
 
 <pb n="82"/>
@@ -4310,7 +4438,7 @@ sisters, or rathcr as one and the same both in their facts and
 in their language; considering these translators not mere
 interpreters but hierophants and prophets to whom it had
 been granted with their honest ani guileless minds to go
-along with the most pure spir.<ref n="2"/> of Moses.</p>
+along with the most pure spirit of Moses.</p>
 
 
 <p>On which account, even to this very day, thore is every year
@@ -4548,7 +4676,7 @@ propagating the different species in the times that should come
 hereafter; for he knew that the nature of God was merciful,
 and that even if the subordinate species were destroyed, still
 there would be a germ in the entire genus which should be
-safe from destruction, for the sa<e of preserving a similitude
+safe from destruction, for the sake of preserving a similitude
 to those animals which had hitherto existed, and of preventing
 anything that had been deliberately called into existence from
 being utterly destroyed.</p>
@@ -4609,18 +4737,7 @@ copy of the powers of God, a visible image of his invisible
 nature, a created image of an uncreated and immortal original.</p></div>
 
 <div type="textpart" subtype="chapter">
-<head>A TREATISE
-
-
-ON THE
-
-
-LIFE OF MOSES,
-
-
-THAT IS TO SAY,
-ON THE THEOLOGY AND PROPHETIC OFFICE OF MOSES,
-BOOK III.</p>
+<head>A TREATISE ON THE LIFE OF MOSES, THAT IS TO SAY, ON THE THEOLOGY AND PROPHETIC OFFICE OF MOSES BOOK III.</head>
 
 
 <p><milestone unit="chapter" n="1"/>We have already, then, gone through two parts of the
@@ -6145,7 +6262,7 @@ thought worthy of being reduced to writing ; but unexpected
 innovations cause new laws to be devised for the repression of
 their evils. At all events, the following law was immediately
 introduced : “ Whoever curses God shall be guilty of sin, and
-whoever names the name of the Lord shall die.”<ref n="1"/> Well done,
+whoever names the name of the Lord shall die.”<ref n="116.1"/> Well done,
 
 
 <note n="116.1"> Leviticus xxiv. 15.
@@ -6456,7 +6573,7 @@ individuals who at any time, for one reason or other, should be
 unable to offer up their sacrifice with the whole of the rest
 of the nation. We must now, therefore, proceed to relate
 the oracular commands which were thus given by God with
-reference to these cases.<ref n="1"/></p>
+reference to these cases.<ref n="122.1"/></p>
 
 
 <p>He says, “The mourning for a relation is a necessary
@@ -6531,7 +6648,7 @@ notoriety ; unless, indeed, it is to be considered as acrime
 that he wus without male offspring. And we are now here
 orphans in appearance, but in real fact desiring to find a
 father in you; for a lawful ruler it as closely connected
-with his subjects as a father.”<ref n="1"/></p>
+with his subjects as a father.”<ref n="124.1"/></p>
 
 
 <p>And Moses marvelled at the wisdom of the maidens, and at
@@ -6742,7 +6859,7 @@ the necks of the enemy, who are now, as if violently dragged
 onward, going down into the depths of the sea like lead.
 You now see them while still alive ; but I conceive the idea
 of them as dead. And this very day you yourselves shall
-also behold them dead.”<ref n="1"/></p>
+also behold them dead.”<ref n="128.1"/></p>
 
 
 <p>He then now said these things to them, things greater
@@ -6992,7 +7109,7 @@ before, but leaped as it were out of his former appearance
 and disposition, and became inspired, and said, “ Who is
 there who has not consented to this error, and who has not
 given sanction to what ought not to be sanctioned? Let
-all such come over to me.”’<ref n="1"/> And when one tribe had come
+all such come over to me.”’<ref n="132.1"/> And when one tribe had come
 over to him, and not less with their minds than with their
 bodies, who indeed had some time before been eager for
 the slaughter of the impious and wicked doers, and who had
@@ -7271,7 +7388,7 @@ liken to men born of a harlot.
 
 
 <pb n="138"/>
-<note type="head">188 PHILO JUD&US.</note>
+<note type="head">188 PHILO JUDAEUS.</note>
 
 
 For as these men are inscribed as the children of all the
@@ -7402,7 +7519,7 @@ resemble heads of laws, of which in the first place one must at
 once admire the number, inasmuch as they are completed in
 the perfect number of the decade, which contains every variety
 of number, both those which are even, and those which are
-odd, and those which are even-odd ;<ref n="1"/> the even numbers being
+odd, and those which are even-odd ;<ref n="140.1"/> the even numbers being
 such as two, the odd numbers such as three, the even-odd
 such as five, it also comprehends all the varieties of the
 multiplication of numbers, and of those numbers which
@@ -7597,27 +7714,27 @@ rapid motion to meet what is said.</p>
 
 
 <p><milestone unit="chapter" n="10"/>This, then, may be enough to say about the divine
-voice. Buta person may very reasonably raise the question on
+voice. But a person may very reasonably raise the question on
 what account it happened, when there were so vast a number
 of myriads of men collected into one place that Moses chose
 to deliver each of the ten commandments in such a form as
 if they had been addressed not to many persons but to one,
-saying :—
+saying :—</p>
 
 
-"Thou shalt not commit adultery.</p>
+<p>"Thou shalt not commit adultery.</p>
 
 
 <p>Thou shalt not steal.</p>
 
 
-<p>Thou shalt not kill.<ref n="1"/></p>
+<p>Thou shalt not kill.<ref n="144.1"/></p>
 
 
-<p>And giving the other commandments in the same form.
+<p>And giving the other commandments in the same form.</p>
 
 
-‘We must say, therefore that he is desirous here to teach
+<p>We must say, therefore that he is desirous here to teach
 that most excellent lesson to those who read the sacred
 scriptures, that each separate individual by himself when he
 is an observer of the law and obedient to God, is of equa!
@@ -7625,7 +7742,7 @@ estimation with a whole nation, be it ever so populous, or I
 might rather say, with all the nations upon earth. And if I
 were to think fit I might proceed further and say, with all
 the world; because in another passage of the scriptures
-God, praising a certain just man, says, “I am thy God.”’+
+God, praising a certain just man, says, “I am thy God.”<ref n="144.2"/>
 
 
 But the same being was also the God of the world; so
@@ -7861,7 +7978,7 @@ these names thus given.</p>
 <p>Again, in their descriptions, they divided the heaven into
 two parts, each one hemisphere, the one being above the
 earth and the other under the earth, which they called the
-Dioscuri ;<ref n="1"/> inventing, besides, a marvellous story concerning
+Dioscuri ;<ref n="148.1"/> inventing, besides, a marvellous story concerning
 
 
 <note n="148.1"> Διὸς κοῦροι. Sons of Jupiter, i.e, Castor and Pollux. The
@@ -8153,7 +8270,7 @@ honour and worship; they have also deified many other
 animals, dogs, ichneumons, wolves, birds, ibises, and hawks,
 and even fish, taking sometimes the whole, and sometimes
 only a part; and what can be more ridiculous than this
-conduct ?<ref n="1"/> And, accordingly, the first foreigners who
+conduct ?<ref n="154.1"/> And, accordingly, the first foreigners who
 arrived in Egypt were quite worn out with laughing at
 and ridiculing these superstitions, till their minds had
 become impregnated with the conceit of the natives ; but all
@@ -8173,12 +8290,12 @@ the Romans. Juvenal says, Sat. xv. 1—
 
 <l>Quis nescit, Volusi Bithynice, qualia demens</l>
 <l>Aegyptus portenta colat? Crocodilon adorat</l>
-<l>Pars hec : illa pavet saturam serpentibus Ibim,</l>
+<l>Pars haec : illa pavet saturam serpentibus Ibim,</l>
 <l>Effigies sacri nitet aurea cercopitheci,</l>
 <l>Dimidio magice resonant ubi Memnone chorda,</l>
 <l>Atque vetus Thebe centum jacet obruta portis.</l>
-<l>Illic eceruleog, hic piscem fluminis, illic .</l>
-<l>Oppida tota canem venerantur, nemo Dianam,</l>
+<l>Illic coeruleow, hic piscem fluminis, illic </l>
+<l>Oppida tota canem venerantur, nemo Dianam.</l>
 
 
 Or, as it is translated by Gifford,
@@ -8524,7 +8641,7 @@ mortal essence, on account of their relationship to men and
 also to other animals, and likewise of the perishable nature
 of the body. And of immortal essence, by reason of the
 similarity of the act of generation to God the Father of the
-univer.<ref n="1"/> But it has often happened that men have attached
+universe. But it has often happened that men have attached
 themselves to one of these divisions, and have seemed to
 neglect the other; for being filled with a sincere love for
 piety, they have renounced all other occupations and
@@ -8730,10 +8847,8 @@ intermarriages and the mutual connections formed with different
 
 
 <pb n="165"/>
-+
 
 
-ON THE TEN COMMANDMENTS. 165
 
 
 houses the iniquity and injury will proceed and infect the
@@ -9294,7 +9409,7 @@ the chiefs of war.</p></div>
 <head>A TREATISE ON CIRCUMCISION.</head>
 
 
-<p><milestone unit="chapter" n="1"/>Tue genera and heads of all special laws, which are
+<p><milestone unit="chapter" n="1"/>The genera and heads of all special laws, which are
 called “the ten commandments,” have been discussed with
 accuracy in the former treatise. We must now proceed to
 consider the particular commands as we read them in the
@@ -9327,7 +9442,7 @@ from reasons of the greatest weight and importance,
 
 First of all, that it is a preventive of a painful disease, and
 of an affliction difficult to be cured, which they call a
-carbunele ;<ref n="1"/> because, I imagine, when ith ecomes inflamed it
+carbunele ;<ref n="176.1"/> because, I imagine, when ith ecomes inflamed it
 burns; from which fact it has derived that appellation.
 And this disease is very apt to be engendered among those
 who have not undergone the rite of circumcision. Secondly,
@@ -9454,7 +9569,7 @@ to pass by their own independent act. But the most sacred
 lawgiver changes their ignorance into knowledge, speaking
 in the following manner: “ Thou shalt not, when thou seest
 the sun, and the moon, and the stars, and all the host of
-heaven, be led astray and fall down and worship them.”<ref n="1"/>
+heaven, be led astray and fall down and worship them.”<ref n="178.1"/>
 With great felicity and propriety has he here called the
 reception of these bodies as gods, an error; for they who see
 that the different seasons of the year owe their existence to
@@ -9524,7 +9639,7 @@ ceremonies and purifications ; the priests and priestesses exciting
 themselves to the very extremity of their power to extend
 this kind of pride and vanity. To whom the Father of the
 universe thus speaks, saying: “ You shall not make to
-yourselves gods of silver and gold;’’<ref n="1"/> all but teaching them in
+yourselves gods of silver and gold;’’<ref n="179.1"/> all but teaching them in
 express words, “You shall not make to yourselves any gods
 whatever of this or of any other material, nor shall you
 worship anything made with hands,” being forbidden
@@ -9568,7 +9683,7 @@ from their owners as if from the gods.</p>
 
 <p>And to these men, Moses says, in another passage, “ You
 shall not follow images, and you shall not make to yourselves
-molten gods.”<ref n="1"/> Teaching them, by figurative language, that
+molten gods.”<ref n="180.1"/> Teaching them, by figurative language, that
 ib is not right to pay such honours to wealth as one would
 pay to the gods; for those celebrated materials of wealth,
 silver and gold, are made to be used, which, however, the
@@ -9656,7 +9771,7 @@ as to be connected with him alone. And it is said in the
 
 
 scriptures that, “Those that are attached to the living God
-do all live.’’<ref n="1"/></p>
+do all live.’’<ref n="182.1"/></p>
 
 
 <p>Is not this, then, a thrice happy life, a thrice blessed
@@ -9803,7 +9918,7 @@ and entreat of thee to receive the supplication of a man who
 is thy suppliant and devoted to God’s service, and desirous
 
 
-. to serve thee alone; for as the light is not known by the
+to serve thee alone; for as the light is not known by the
 agency of anything else, but is itself its own manifestation,
 so also thou must alone be able to manifest thyself. For
 which reason I hope to receive pardon, if, from want of any
@@ -9892,7 +10007,7 @@ doctrines.”
 
 When Moses heard this he did not cease from his desire,
 but he still burned with a longing for the understanding of
-invisible things.<ref n="1"/> ......</p>
+invisible things.<ref n="186.1"/> ......</p>
 
 
 <p><milestone unit="chapter" n="7"/>And he receives all persons of a similar character
@@ -10094,7 +10209,7 @@ continually being convicted by themselves). He, with great
 energy, forbids his disciples to apply themselves to such
 sources of knowledge; and he says, that if they are truly pious
 they shall not be deprived of a proper knowledge of the
-future; but that some other prophet<ref n="1"/> will appear to them on
+future; but that some other prophet<ref n="190.1"/> will appear to them on
 a sudden, inspired like himself, who will preach and prophesy
 among them, saying nothing of his own (for he who is truly
 possessed and inspired, even when he speaks, is°unable to com- ”
@@ -10116,7 +10231,7 @@ one ought to pay him the honours that are his due.</p>
 <head>A TREATISE ON MONARCHY, BOOK II</head>
 
 
-<milestone unit="chapter" n="1"/>We ought to look upon the universal world as the highest
+<p><milestone unit="chapter" n="1"/>We ought to look upon the universal world as the highest
 and truest temple of God, having for its most holy place that
 most sacred part of the essence of all existing things, namely, the
 heaven; and for ornaments, the stars; and for priests, the
@@ -10432,7 +10547,7 @@ borders embroidered with flowers.</p>
 <p>And these things are the emblems of earth and of water;
 the flowers are the emblems of the earth, inasmuch as it is out
 of it that they all rise and derive strength to bloom. And the
-pomegranates<ref n="1"/> as above mentioned are the emblems of water,
+pomegranates<ref n="196.1"/> as above mentioned are the emblems of water,
 being so named from the flowing of the stream. And the
 harmony, and concord, and unison of sound of the different
 parts of the world is betokened by the bells. And the
@@ -10568,7 +10683,7 @@ brothels and be admitted into the sacred precincts. For the -
 scars and impressions of their old offences remain not the less‘
 in the souls of those who repent. On which account it is
 wisely and truly said in another passage, that “One may not
-bring the hire of a harlot into the temple.”<ref n="1"/> And yet the
+bring the hire of a harlot into the temple.”<ref n="198.1"/> And yet the
 money is not in itself liable to any reproach, except by reason
 of the woman who received it, and the action for which it was
 
@@ -10670,7 +10785,7 @@ fathers to their sons-in-law.</p>
 respecting marriage, and respecting what greatly resembles
 marriage, the procreation of children. But since destruction
 follows creation, Moses also gave the priests laws relating to
-death,<ref n="1"/> commanding them not to permit themselves to be
+death,<ref n="200.1"/> commanding them not to permit themselves to be
 defiled in respect of all people whatsoever, who might happen
 to die, and who might be connected with them through some
 bond of friendship, or distant relationship: but allowing them
@@ -10728,7 +10843,7 @@ mercies and kindnesses to mankind.</p>
 
 <p><milestone unit="chapter" n="13"/>After he has said this, he immediately proceeds to
 lay down laws, concerning those who are to use the first fruits,
-“If therefore, any one,”<ref n="1"/> says he, ‘should mutilate the
+“If therefore, any one,”<ref n="201.1"/> says he, ‘should mutilate the
 priests as to their eyes, or their feet, or any part of their bodies,
 or if he should have received any blemish, let him not partake
 of the sacred ministrations by reason of the defects which
@@ -10749,7 +10864,7 @@ attack him, or if any one of the priests be afflicted with any
 flux, let him not touch the sacred table, nor any of the duties
 which are set apart for his race, until the flux stop, or the
 leprosy change, so that he become again resembling the
-complexion of sound flesh.”<ref n="1"/> 
+complexion of sound flesh.”<ref n="202.1"/>
 
 
 And, if any priest do by any chance whatever touch
@@ -10761,7 +10876,7 @@ be hindered from touching them. And let the sojourner in the
 priest's house, and the hireling, be prevented from approaching
 the first fruits; the sojourner, because it is not every one who
 is a neighbour who shares a man’s hearth and eats at his
-table ;+ for there is reason to fear that some such person may
+table ;<ref n="202.2"/> for there is reason to fear that some such person may
 cast away what is hallowed, using as a cloak for his impiety
 the pretence of some unseasonable humanity; for one might
 not give all men a share of all things, but only of such as are
@@ -10869,7 +10984,7 @@ having married a man who is not a priest, becomes a widow
 by the death of her husband, or if she be left childless while
 he is still alive, let her return again to her father’s house, to
 receive her share of the first fruits which she enjoycd when
-she was a virgin ;<ref n="1"/> for in some degree and in effect she is now
+she was a virgin ;<ref n="204.1"/> for in some degree and in effect she is now
 also a virgin, since she has neither husband nor children, and
 has no other refuge but her father; but if she has sons or
 daughters, then the mother must of necessity be classed with
@@ -10970,7 +11085,7 @@ fruits, not only of all their possessions of every description,
 but also of their own lives and bodies; for the children are
 separable portions of their parents as one may say; but if one
 must tell the plain truth, they are inseparable as being of
-kindred blood,<ref n="1"/>. . . . and being bound to them by the
+kindred blood,<ref n="206.1"/>. . . . and being bound to them by the
 allurenxients of united good will, and by the indissoluble bonds
 of nature.</p>
 
@@ -11080,7 +11195,7 @@ which has been mentioned a short time ago; the jaw-bone as a
 first fruit of that most important of all the members of the
 body, namely the head, and also of uttered speech, for the
 stream of speech could not flow out without the motion of
-these jaws; for they being agitated<ref n="1"/> (and it is very likely
+these jaws; for they being agitated<ref n="208.1"/> (and it is very likely
 from this, that they have derived their name), when they are
 struck by the tongue, all the organisation of the voice sounds
 simultaneously ; and the paunch is a kind of excrescence of the
@@ -11498,7 +11613,7 @@ some of the blood, let him go all around the altar and sprinkle
 it with the blood, and let him flay the victim and divide it into
 large pieces, having washed its entrails and its feet. And
 then let the whole victim be given to the fire of the altar of
-God,<ref n="1"/> having become many things instead of one, and one
+God,<ref n="216.1"/> having become many things instead of one, and one
 instead of many.”
 
 
@@ -11834,7 +11949,7 @@ proper idea of sacrifice.”
 
 <milestone unit="chapter" n="9"/>To this species of sacrifice for preservation that other
 sacrifice also belongs, which is called the sacrifice of praise,
-and which rests on the following principle.<ref n="1"/> The man who
+and which rests on the following principle.<ref n="222.1"/> The man who
 has never fallen into any unexpected disaster whatever, neither
 as to his body nor as to his external circumstances, but wha
 has passed a tranquil and peaceful life, living in happiness
@@ -11852,13 +11967,13 @@ name of praise.</p>
 
 
 <p>This sacrifice the lawgiver has not commanded to be spread
-like the one before mentioned over two days,<ref n="2"/> but he has
+like the one before mentioned over two days,<ref n="222.2"/> but he has
 confined it to one only, in order that these men, who meet with
 ready benefits freely poured upon them, may offer up their
 requital freely and without any delay.
 
 
-<note n="222.1">Leviticus xix. 1.</note> 
+<note n="222.1">Leviticus xix. 1.</note>
 <note n="222.2">Leviticus vii. 5.</note>
 
 
@@ -11935,7 +12050,7 @@ which the sacred ashes from the altar have been conveyed.</p>
 
 <p>The lawgiver also gives the same command with respect to
 the whole nation when it has sinned. But if any ruler has
-sinned he makes his purification with a kid,<ref n="1"/> as I have said
+sinned he makes his purification with a kid,<ref n="224.1"/> as I have said
 before ; and if a private individual has sinned, he must offer a
 she-goat or a lamb; and for the ruler he appoints a male
 victim, but to the private individual a female, making all his
@@ -11984,7 +12099,7 @@ the deposit which he has received, and by giving up the things
 which he has stolen or found, or of which in short he has in
 any way deprived his neighbour, paying also in addition one
 fifth of the value, as an atonement for the evil which he had
-done.”<ref n="1"/></p>
+done.”<ref n="225.1"/></p>
 
 
 <p>And then, after he has appeased the man who had been
@@ -12013,7 +12128,7 @@ repents as being preserved, since he is cured of a disease of
 the soul, which is worse than the diseases of the body; but the
 other parts of the animal are assigned to be eaten in a
 different manner ; and the difference consists in three things ; in the
-place, and time, and in those who receive it.<ref n="2"/> Now the place
+place, and time, and in those who receive it.<ref n="225.2"/> Now the place
 is the temple; the time is one day instead of two; and the
 persons who partake of it are the priests, and the male servants of
 the priests, but not the men who offer the sacrifice. Therefore
@@ -12151,7 +12266,7 @@ towards their relations and dearest friends, and it is both
 honourable and expedient that piety should at all times prevail.</p>
 
 
-<p><milestone unit="chapter" n="14"/>But when the appointed time for their being released<ref n="1"/>
+<p><milestone unit="chapter" n="14"/>But when the appointed time for their being released<ref n="228.1"/>
 from this vow has arrived, the law then commands the man
 who has dedicated himself to bring three animals to procure his
 release from his vow, a male lamb, and a female lamb, and a
@@ -12204,11 +12319,11 @@ polluted with human blood, but yet it was by all means necessary
 
 that a portion should be consecrated, he has taken care to take
 @ portion, which, being taken, should cause neither pain nor
-defilement; for he has cut off<ref n="1"/> the hair of the head, the
+defilement; for he has cut off<ref n="229.1"/> the hair of the head, the
 superfluities of the natural body, as if they were the
 superfluous branches of a tree, and he has committed them to the
 fire on which the meat of the sacrifice offered for preservation
-will be suitably prepared,<ref n="2"/> in order that some portion of the
+will be suitably prepared,<ref n="229.2"/> in order that some portion of the
 man who has made the vow, which it is not lawful to place
 upon the altar, may still at all events be combined with the
 sacrifice, burning the fuel of the sacred flame.</p>
@@ -12295,7 +12410,7 @@ precincts and to share in the sacred ministrations.</p>
 
 <p><milestone unit="chapter" n="2"/>We must consider what great pradence and philosophical
 wisdom is displayed in this law; for nearly all other persons
-are besprinkled with pure water, generally in the sea, some in +
+are besprinkled with pure water, generally in the sea, some in
 rivers, and others again in vesse)s of water which they draw
 from fountains. But Moses, having previously prepared ashes
 which had been left from the sacred fire (and in what manner
@@ -12331,7 +12446,7 @@ conciliate the merciful power of that Being who hates
 arrogance.
 
 
-: For it is said somewhere with great beauty, “ He that
+ For it is said somewhere with great beauty, “ He that
 exhibits over proud words or actions offends not men alone
 but God also, the maker of equality and of every thing else
 that is most excellent.” Thetefore, to us who are amazed and
@@ -12350,7 +12465,7 @@ which its beginnings come.</p>
 explain the peculiar propriety involved in this use of ashes.
 For they are not merely the ashes of wood which has been
 consumed by fire, but also of an animal particularly suited for
-this kind of purification. For the law orders<ref n="1"/> that a red
+this kind of purification. For the law orders<ref n="231.1"/> that a red
 heifer, which has never been brought under the yoke, shall be
 sacrificed outside of the city, and that the high priest. taking
 some of the blood, shall seven times sprinkle with it all the
@@ -12358,7 +12473,7 @@ things in front of the temple, and then shall burn the whvle
 animal, with its hide and flesh, and with the belly full of all
 
 
-<note n="232.1">Numbers xix. 1.</note>
+<note n="231.1">Numbers xix. 1.</note>
 
 
 <pb n="232"/>
@@ -12454,7 +12569,7 @@ in its situation, but also in the fact that it ministers every day
 before any thing else to the thanksgivings to be paid to God.
 For the law does not permit the priest to offer the sacrifice of
 the whole burnt offering outside before he has offered incense
-within at the earliest dawn.<ref n="1"/></p>
+within at the earliest dawn.<ref n="233.1"/></p>
 
 
 <p>And this command is a symbol of nothing else but of the
@@ -12512,7 +12627,7 @@ light to afford to him who sees.”
 <milestone unit="chapter" n="5"/>Moreover, there are other commandments relating to the
 altar. The law says, ‘A fire shall be kept burning on the
 altar which shall never be extinguished, but shall be kept
-burning for ever."<ref n="1"/> I think with great reason and propriety; for,
+burning for ever."<ref n="234.1"/> I think with great reason and propriety; for,
 since the graces of God are everlasting, and unceasing, and
 uninterrupted, which we now enjoy day and night, and since
 the symbol of gratitude is the sacred flame, it is fitting that it
@@ -12553,7 +12668,7 @@ continually shining and never extinguished.</p>
 
 
 <p><milestone unit="chapter" n="6"/>After this the law says, “On every offering you shall
-add salt."<ref n="1"/> By which injunction, as I have said before, he
+add salt."<ref n="235.1"/> By which injunction, as I have said before, he
 figuratively implies a duration for ever; for salt is calculated
 to preserve bodies, being placed in the second rank as inferior
 only to the soul; for as the soul is the cause of bodies not being
@@ -12574,7 +12689,7 @@ up without any leaven or honey, not thinking it fit that either
 of these things should be brought to the altar The honey,
 
 
-<note n="236.1">Leviticus ii, 13.</note>
+<note n="235.1">Leviticus ii, 13.</note>
 
 <pb n="236"/>
 <note type="head">236 PHILO JUDEUS,</note>
@@ -12582,7 +12697,7 @@ of these things should be brought to the altar The honey,
 
 perhaps, because the bee which collects it is not a clean animal,
 inasmuch as it derives its birth, as the story goes, from the
-putrefaction and corruption of dead oxen,<ref n="1"/> just as wasps spring
+putrefaction and corruption of dead oxen,<ref n="236.1"/> just as wasps spring
 rom the bodies of horses. Or else this may be forbidden as a
 figurative declaration that all superfluous pleasure is unholy,
 making, indeed, the things which are eaten sweet to the taste,
@@ -12599,8 +12714,7 @@ himself to be elated, being puffed up by insolence; but that
 such persons may keep their eyes fixed on the greatness of God,
 
 
-<note n="236.1">This refers to the same idea so beautifully expressed by Virgil,
-Georgic iv. 548.
+<note n="236.1">This refers to the same idea so beautifully expressed by Virgil,mGeorgics iv. 548.
 
 
 <l>Haud mora; continuo matris precepta facessit.</l>
@@ -12666,7 +12780,7 @@ untractable monster ?</p>
 
 
 <p><milestone unit="chapter" n="7"/>Again, the law commands that candles shall be kept
-burning from evening until morning<ref n="1"/> on the sacred
+burning from evening until morning<ref n="237.1"/> on the sacred
 candlesticks within the veil, on many accounts. One of which is
 that the holy places may be kept illuminated without any
 interruption after the cessation of the light of day, being always
@@ -12788,7 +12902,7 @@ among justice and equality. But these men are uncircumcised
 in their hearts, as the law expresses it, and by reason of the
 hardness of their hearts they are stubborn, resisting and
 breaking their traces in a restive manner; whom the Lord reproves,
-saying, " Be ye circumcised as to your hard-heartedness ;”<ref n="1"/>
+saying, " Be ye circumcised as to your hard-heartedness ;”<ref n="239.1"/>
 that means, “ do ye eradicate the overbearing character of your
 dominant part, which the immoderate impulses of the passing
 
@@ -12805,7 +12919,7 @@ hour have sown and caused to grow within you, and which the
 wicked husbandman of the soul, folly, planted.</p>
 
 
-<p>Again, it says, " Let not your necks be stiff,”<ref n="1"/> that is to
+<p>Again, it says, " Let not your necks be stiff,”<ref n="240.1"/> that is to
 say, let not your mind be unbending and self-willed, and let
 it not admit into itself that most blameable ignorance of
 excessive perverseness. But discarding obstinacy and
@@ -12818,7 +12932,7 @@ of this that he made and arranged the universe. And the
 other, or punishing power, is called Lord, on which his
 sovereignty over the universo depends. And God is God, not
 only of men, but also of gods; and he is mighty, being truly
-strong and truly powerful. f
+strong and truly powerful.<ref n="240.2"/>
 
 
 <milestone unit="chapter" n="10"/>But, nevertheless, though he is so great in excellence
@@ -12857,7 +12971,7 @@ and to care for persons so wholly desolate.
 
 
 “Let then,” says the law, ‘God alone be thy boast, and
-thy greater glory.”<ref n="1"/> And do not pride thyself either on thy
+thy greater glory.”<ref n="241.1"/> And do not pride thyself either on thy
 wealth, or on thy glory, or on the beauty of thy person, or on
 thy strength, or on anything of the same kind as the objects
 at which foolish empty-headed persons are apt to be elated ;
@@ -12943,7 +13057,7 @@ indissoluble bond of all united good will. For such men will
 lay claim to a more venerable and sacred kind of relationship ;
 and the law confirms my assertion, where it says that those
 who do what is pleasing to nature and virtuous are the sons of
-God, for it says, ‘Ye are the sons of the Lord your God,”<ref n="1"/>
+God, for it says, ‘Ye are the sons of the Lord your God,”<ref n="242.1"/>
 inasmuch as you will be thought worthy of his providence and
 care in your behalf as though he were your father. And that
 care is as much superior to that which is shown by a man’s
@@ -13276,7 +13390,7 @@ they are not all influenced by the same intentions.</p>
 Moses, will never abandon our investigation into the nature of
 the true God ; looking upon the knowledge of him as the true
 end of happiness ; and thinking that the true everlasting life,
-as the law says,<ref n="1"/> is to live in obedience to and worship of God ;
+as the law says,<ref n="248.1"/> is to live in obedience to and worship of God ;
 in which precept it gives us a most important and philosophical
 lesson; for in real truth those who are atheists are dead as to
 their souls, but those who are marshalled in the ranks of the
@@ -13289,19 +13403,14 @@ truo lying God, as his servants, enjoy an everlasting life.
 
 <pb n="249"/>
 <note type="head">ON THE WAGES OF A HARLOT, ETC. 249</note>
+</p></div>
+
+<div type="textpart" subtype="chapter">
+
+<head>A TREATISE ON THE COMMANDMENT THAT THE WAGES OF A HARLOT ARE NOT TO BE RECEIVED IN THE SACRED TREASURY.</head>
 
 
-A TREATISE
-
-
-ON THE
-
-
-COMMANDMENT THAT THE WAGES OF A HARLOT ARE
-NOT TO BE RECEIVED IN THE SACRED TREASURY.</p>
-
-
-<p><milestone unit="chapter" n="1"/>Tuts injunction also is very admirably and properly set
+<p><milestone unit="chapter" n="1"/>This injunction also is very admirably and properly set
 down in the sacred tablets of the law, that the wages of a
 harlot are not to be received into the temple, and inasmuch
 as she has earned them by selling her beauty, having chosen a
@@ -13440,8 +13549,8 @@ from the very day that the earth first received them it has
 cherished them like a faithful nurse, sending down into its
 lowest depths the routs to act like the strongest branches, and
 above ground extending its trunk as high as heaven, and
-‘ting forth branches which are by analogy imitations of the
-_puthand and feet which we see in animals, and leaves which
+putting forth branches which are by analogy imitations of the
+hand and feet which we see in animals, and leaves which
 correspond to the hair. Ihave prepared and caused that to
 blossom which shall be at the same time a covering and an
 ornament to you; and besides all this, I have provided fruit
@@ -13567,10 +13676,10 @@ which she offered to the heariug, made no mention at all of
 those other qualities which are her misfortunes and diseases ;
 which, however, you will of necessity experience if you choose
 those pleasures which she offers; that so, being borne aloft by
-the breeze of some advantage, you may be taken in her toils,
+the breeze of some advantage, you may be taken in her toils.</p>
 
 
-Know, then, my good friend, that if you become a votary of
+<p>Know, then, my good friend, that if you become a votary of
 pleasure you will be all these things: a bold, cunning,
 audacious, unsociable, uncourteous, inhuman, lawless, savage, ill-tempered, unrestrainable, worthless man ; deaf to advice, foolish,
 full of evil acts, unteachable, unjust, unfair, one who has no
@@ -13622,7 +13731,7 @@ who could worthily describe either the multitude or the
 magnijude of the good things which are stored up in my treasure
 
 
-houses ?
+houses ?</p>
 </div>
 
 <div type="textpart" subtype="chapter">
@@ -13630,7 +13739,7 @@ houses ?
 <head>A TREATISE ON THE SPECIAL LAWS, WHICH ARE REFERRED TO THREE ARTICLES OF THE DECALOGUE, NAMELY, THE THIRD, FOURTH, AND FIFTH ; ABOUT OATHS, AND THE REVERENCE DUE TO THEM; ABOUT THE HOLY SABBATH; ABOUT THE HONOUR TO BE PAID TO PARENTS.</head>
 
 
-<milestone unit="chapter" n="1"/>In the treatise preceding this one we have discussed with
+<p><milestone unit="chapter" n="1"/>In the treatise preceding this one we have discussed with
 accuracy two articles of the ten commandments, that which
 relates to not thinking that any other beings are absolute gods,
 except God himself; and the other which enjoins us not to
@@ -13918,7 +14027,6 @@ women the power of making vows independently, pronouncing
 
 
 <pb n="261"/>
-ON THE SPECIAL LAWS. 26%
 
 
 the parents of the one class, and the husbands of the other,
@@ -13948,7 +14056,7 @@ the swearers.</p>
 oath, and does not inform against him, or convict him, being
 influenced by friendship, or respect, or fear, rather than by
 piety, he shall be liable to the same punishment as the
-perjured person ;<ref n="1"/> for assenting to one who does wrong differs
+perjured person ;<ref n="261.1"/> for assenting to one who does wrong differs
 in no respect from doing wrong one’s self. And punishment is
 inflicted on perjured persons in some eases by God and in
 others by men; but those punishments which proceed from
@@ -13959,7 +14067,7 @@ great justice and propriety, for the man who despises such
 important matters cannot complain if he is despised in his
 turn, receiving a fate equal to his actions. But the
 punishments which are inflicted by men are of various characters,
-being death, or scourging ;¢ those men who ave more excellent
+being death, or scourging ;<ref n="261.2"/> those men who ave more excellent
 and more strict in their piety inflicting death on such offenders,
 but those who are of milder dispositions scourging them with
 rods publicly in the sight of all men; and to men who are not
@@ -14017,7 +14125,7 @@ own selves, the law has affixed a price to their vows, not
 having a regard to their beauty, or their importance, or to any
 thing of that kind, but with reference to the number of the
 individuals separating the men from the women, and the infants
-from those who are full grown. For the law ordains<ref n="1"/> that
+from those who are full grown. For the law ordains<ref n="262.1"/> that
 from twenty years of age to sixty the price of a man shall be two
 hundred drachmas of solid silver money, and of a woman a
 
@@ -14124,8 +14232,7 @@ the humanity of creditors towards their debtors, as they
 forgive their countrymen their debts every seventh year. Also
 there is the rest given to the fertile ground, whether it be in
 the champaign or in the mountainous country, which also takes
-place every seventh year. Moreover, there are those ordi+
-nances which are established respecting the fiftieth year.</p>
+place every seventh year. Moreover, there are those ordinances which are established respecting the fiftieth year.</p>
 
 
 <p>And of all these things the bare narration (without looking
@@ -14188,12 +14295,12 @@ passover.</p>
 petal is celebrated, which is really the seventh day of seventh
 
 
-ays.</p>
+days.</p>
 
 
 <p>The eighth is the festival of the sacred moon, or the feast
-of trumpets.
-+. The ninth is the fast.
+of trumpets.</p>
+<p>The ninth is the fast.
 
 
 <pb n="266"/>
@@ -14333,7 +14440,7 @@ passions.</p>
 preeminence of the beauty of that which is the real festival, looked
 upon it as too perfect for human nature and dedicated it to
 God himself, speaking thus, in these very words: “ The feast
-of the Lord.”<ref n="1"/> In considering the melancholy and fearful
+of the Lord.”<ref n="268.1"/> In considering the melancholy and fearful
 condition of the human race, and how full it is of innumerable
 evils, which the covetousness of the soul begets, which the
 defects of the body produce, and which all the inequalities of
@@ -14367,7 +14474,7 @@ over the heaven and earth. In reference to which fact, a
 <note type="head">ON THE TEN FESTIVALS. 269</note>
 
 
-certain pre-eminently virtuous mind among the people of old,<ref n="1"/>
+certain pre-eminently virtuous mind among the people of old,<ref n="269.1"/>
 when all its passions were tranquil, smiled, being full of and
 completely penetrated with joy, and reasoning with itself
 whether perhaps to rejoice was not a peculiar attribute of God,
@@ -14445,7 +14552,7 @@ perfect, was commanded to rest and abstain from all works.</p>
 accustoming its followers to submit to hardships, and training
 them to labour, and it hates those who desire to be indolent
 and idle; at all events, it expressly commands us to labour
-diligently for six days,<ref n="1"/> but in order to give some remission
+diligently for six days,<ref n="270.1"/> but in order to give some remission
 from uninterrupted and incessant toil, it refreshes the body
 with seasons of moderate relaxation exactly measured out, so
 as to renew it again for fresh works. For those who take
@@ -14570,7 +14677,7 @@ every creature.</p>
 reverence that even all other things which at all partake of it
 are honoured by him; at all events, on every seventh year he
 ordains a remission of debts, assisting the poor, and inviting
-the rich to humanity ;<ref n="1"/> that so they, from their abundance,
+the rich to humanity ;<ref n="272.1"/> that so they, from their abundance,
 giving to those that are in want, may also look forward to
 receiving services from them in the case of any disaster
 happening to them. For the accidents of human life are
@@ -14660,7 +14767,7 @@ with equal services.</p>
 proveeds in regular order to establish a law full of all gentleness
 and humanity. “If,” says this law, “ one of thy brethren be sold
 to thee, let him serve thee for six years; and in the seventh
-year let him be set free without any payment,”<ref n="1"/> Here again
+year let him be set free without any payment,”<ref n="274.1"/> Here again
 Moses calls their fellow countrymen their brothers, implanting
 in the soul of the owner by this appellation an idea of
 relationship to his servant, that he may not neglect him as a stranger,
@@ -14669,7 +14776,7 @@ to a feeling of affection for him as a relation, in consequence
 of the lesson which the holy scripture thus suggests, he may
 not feel indignant when his servant is about to recover his
 freedom. For it has come to pass that such men are called
-slaves (doo), but they are in reality only servants (6jres),
+slaves (δοῦλοι), but they are in reality only servants (θῆτες),
 serving their masters for the sake of their necessities. And
 even though they had a thousand times over given their masters
 absolute power and authority over them, still their masters
@@ -14684,7 +14791,7 @@ evil, insolence, behave to him as if he were a hireling, giving
 some things and receiving others. And so he will, with all
 
 
-Deuteronomy xv. 12,
+<note n="274.1">Deuteronomy xv. 12.</note>
 
 
 <pb n="275"/>
@@ -14727,7 +14834,7 @@ enough to say about the poor.</p>
 
 <p><milestone unit="chapter" n="5"/>In the next place Moses commands the people to leave
 the land fallow and untilled every seventh year, for many
-reasons ;<ref n="1"/> first of all, that they may honour the number seven, or
+reasons ;<ref n="275.1"/> first of all, that they may honour the number seven, or
 each period of days, and months, and years; for every seventh
 day is sacred, which is called by the Hebrews the sabbath; and
 the seventh month in every year has the greatest of the
@@ -15026,10 +15133,10 @@ within any walls; the law has directed that those in the
 country shall always be redeemed with money, and that those
 which are not redeemed before the fiftieth year shall be
 restored without any payment to their original owners, just as
-their other possessions ;<ref n="1"/> for the houses are a portion of the
+their other possessions ;<ref n="281.1"/> for the houses are a portion of the
 man’s possessions. But those which are within walls shall be
 liable to be redeemed by those who have sold them for a full
-year ;<ref n="2"/> but if they be not redeemed within that year, then
+year ;<ref n="281.2"/> but if they be not redeemed within that year, then
 after that year they shall be confirmed to those who had bought
 them, the jubilee of the fiftieth year not injuring the claim of
 the purchasers.</p>
@@ -15073,7 +15180,7 @@ The law did not bestow upon the keepers of the temple any
 portion of the land, considering the first fruits of it a sufficient
 revenue for them. But it allotted them eight and forty cities
 to dwell in, and a suburb of two thousand cubits around each
-city.<ref n="1"/> Therefore, it did not confirm the houses in these cities
+city.<ref n="282.1"/> Therefore, it did not confirm the houses in these cities
 in the same manner that it did those in the other cities which
 are built within walls, to the purchasers, if those who had sold
 them were not able to redeem them within the year, but it
@@ -15190,10 +15297,10 @@ people is celebrated on the fourteenth day of the month, which
 consists of two periods of seven, in order that nothing which is
 accounted worthy of honour may be separated from the number
 seven. But this number is the beginning of brilliancy and
-dignity to everything
+dignity to everything.</p>
 
 
-THE FIFTH FESTIVAL.</p>
+<p>THE FIFTH FESTIVAL.</p>
 
 
 <p>And there is another festival combined with the feast of the
@@ -15351,7 +15458,7 @@ there should be any contradiction in the injunctions given,
 but that in a manner the giving and receiving may be of one
 sort; the receiving being gratitude from those who offer it,
 and the giving an unhesitating bestowal of the customary
-blessings on those who offer.<ref n="1"/> Not indeed to that ...</p>
+blessings on those who offer.<ref n="287.1"/> Not indeed to that ...</p>
 
 
 <p>For those to whom such an action is permitted will use
@@ -15496,7 +15603,7 @@ we attribute that to the Saviour, to the God who rules in the
 world, and who is able, either by means of these things or
 without them, to nourish and to preserve us. At all events,
 behold, he nourished our forefathers even in the desert for
-forty years.”<ref n="1"/></p>
+forty years.”<ref n="289.1"/></p>
 
 
 <p>And this day of the fast is celebrated in the tenth month,
@@ -15596,8 +15703,7 @@ barrenness or scarcity.</p>
 <p>I have spoken in this way about the sacred week and the
 sacred number seven at more than usual length, wishing to
 show that all the feasts of the year are, as it were, the offspring
-of the number seven, which stands in the relation of a mother.<ref n='291.1'/>
-... Follies and joys; and because in such assemblies and
+of the number seven, which stands in the relation of a mother.<ref n="291.1"/> ... Follies and joys; and because in such assemblies and
 in a cheerful course of life there are thus established seasons of
 delight unconnected with any sorrow or depression supporting
 both the body and the soul; the one by the pleasure and the
@@ -15615,7 +15721,7 @@ Zod, and a solemn assembly on the day of the festival which
 
 
 <note n="291.1"> I have translated this as it is printed in Schwichest’s edition.
-Mangey makes the treatise end at “ mother.”
+Mangey makes the treatise end at “ mother.”</note>
 <note n="291.2">his treatise is not given in Mangey’s edition.</note>
 <note n="291.3">Deuteronomy xxvi. 1.
 
@@ -15626,7 +15732,7 @@ Mangey makes the treatise end at “ mother.”
 <note type="head">292 PHILO JUDAHUS.</note>
 
 
-they call castallus,<ref n="1"/> from the event that takes place in it, as
+they call castallus,<ref n="292.1"/> from the event that takes place in it, as
 we shall show presently. Now that this festival is not in the
 same rank, nor of the same importance with the other festivals,
 is plain from many considerations. For, first of all, it is not
@@ -15717,7 +15823,7 @@ about the honour due to parents.</p>
 
 <div type="textpart" subtype="chapter">
 
-<head>A TREATISE ON THE HONOUR COMMANDED TO BE PAID TO PARENTS.<ref n="1"/></head>
+<head>A TREATISE ON THE HONOUR COMMANDED TO BE PAID TO PARENTS.<ref n="293.1"/></head>
 
 
 <p><milestone unit="chapter" n="1"/>Havine already spoken of four commandments which,
@@ -15727,7 +15833,7 @@ both as to the order in which they are placed and as to their
 
 
 <pb n="294"/>
-<note type="head">294 PHILO JUD&US.</note>
+<note type="head">294 PHILO JUDAEUS.</note>
 
 
 importance, are truly the first; namely, the commandment
@@ -15836,7 +15942,7 @@ they behave with obstinacy and resist this treatment, becoming
 
 stiffnecked through the greatness of their incurable
 wickedness, the law permits them to chastise them even to the extent
-of putting them to death.<ref n="1"/> But still this permission is not
+of putting them to death.<ref n="296.1"/> But still this permission is not
 given to either the father by himself, or to the mother by
 herself, by reason of the greatness of the punishment, which it
 is not fitting should be determined by one, but by both
@@ -15874,7 +15980,7 @@ older than themselves, nor listen to them as their teachers, nor
 think them worthy of any requital as their benefactors, nor
 obey them as their rulers, nor fear them as their masters?
 Therefore the law says, ‘Honour thy father and thy mother
-next after God;"f assigning to them the second place in
+next after God;"<ref n="296.2"/> assigning to them the second place in
 honour, on the same principle as nature herself has ranked
 them in her decision of their proper place and duties,
 
@@ -15915,14 +16021,14 @@ upon them as the images of his parents, who are the real
 models. On which account, in the sacred scriptures, it is not
 only commanded that young men should rise up and give the
 best seats to their elders, but also that they should rise up
-before them when they pass by ;<ref n="1"/> showing honour to the grey
+before them when they pass by ;<ref n="297.1"/> showing honour to the grey
 hairs of old age, to which there is a hope that they may come
 themselves if they now yield precedence to them.</p>
 
 
 <p>And this commandment also seems to me to have been
 enacted with exceeding beauty and propriety ; for the law says,
-“‘ Let each man fear his father and his mother,”} enjoining fear
+“‘ Let each man fear his father and his mother,”<ref n="297.2"/> enjoining fear
 rather than affection, not as being better in every respect or
 for every purpose, but as being more advantageous and
 profitable with reference to the present occasion, for the first of
@@ -15985,7 +16091,7 @@ being pronounced in such cases are different, and we must
 begin with ihe last, the one that relates to parents, since it is
 in reference to this one that the words are still ringing in our
 ears, " If any one shall beat his father or his mother, let him
-be stoned.’<ref n="1"/></p>
+be stoned.’<ref n="298.1"/></p>
 
 
 <p>And very justly, for it is not fit that that man should live
@@ -16045,8 +16151,8 @@ dying of hunger, after his anger has been blunted by time.
 And even if he has not laid hands upon his parents, but has
 only spoken ill of those whom he was bound to praise and
 bless, or if he has in any other manner done anything which
-can tend to bring his parents into disrepute, still let him die.<ref n="1"/>
-
+can tend to bring his parents into disrepute, still let him die.<ref n="299.1"/>
+<note n="299.1"> Exodus xxi. 16.</note>
 
 <pb n="300"/>
 <note type="head">800 PHILO JUDAUS.</note>
@@ -16064,7 +16170,7 @@ seventh day as far as it may have lain in his power, be liable
 to the punishment of death. For, on the contrary, it is proper
 rather to provide whatever is profane, be it a thing or be it a
 person, with means of purification, in order to induce a change
-for the better, since “envy,” as some one has said, “‘ goes forth
+for the better, since “envy,” as some one has said, “ goes forth
 out of the divine company.” But to dare to adulterate or to
 deface the holy coinage is an act which displays an
 extraordinary degree of impiety.</p>
@@ -16096,11 +16202,11 @@ any fuel for a fire.</p>
 
 <p><milestone unit="chapter" n="9"/>Against those who call God as a witness in favour of
 assertions which are not true, the punishment of death is
-ordained in the law ;+ and very properly, for even a man of
+ordained in the law ;<ref n="300.1"/> and very properly, for even a man of
 
 
-<note n="300.1"> Exodus xxi. 16.</note>
-<note n="300.2"> Deuteronomy xix. 19.
+
+<note n="300.1"> Deuteronomy xix. 19.
 </note>
 
 
@@ -16165,7 +16271,7 @@ to the Father and Creator of the universe, that thus thou
 mayest cherish the most virtuous and godly thoughts about his
 single government, and mayest speak words that are becoming
 and most profitable both to thyself and to those that hear
-thee,”<ref n="1"/></p>
+thee,”<ref n="302.1"/></p>
 
 
 <p><milestone unit="chapter" n="10"/>We have now then mentioned the punishments which
@@ -16223,7 +16329,7 @@ to the first five commandments, which have a more divine
 character, inasmuch as this is concerned with mortal subjects,
 God has given an inducement to obey this one, saying,
 “ Honour thy father and thy mother, that it may be well with
-thee, and that thy days may be long in the land;”<ref n="1"/> affixing
+thee, and that thy days may be long in the land;”<ref n="303.1"/> affixing
 thus two rewards to this injunction, one being in fact the
 participation in virtue, for “well” means virtue, or at least
 cannot subsist without virtue; while the other is, if one is to
@@ -16234,7 +16340,7 @@ with thy soul. purified with a perfect purification.</p>
 
 <p>These things have now been discussed at sufficient length.
 Let us after this, since the opportunity offers, consider the
-commandments in the second table.
+commandments in the second table.</p>
 </div>
 
 <div type="textpart" subtype="chapter">
@@ -16242,7 +16348,7 @@ commandments in the second table.
 <head>A TREATISE ON THOSE SPECIAL LAWS WHICH ARE REFERRIBLE TO TWO COMMANDMENTS IN THE DECALOQGUE, THE SIXTH AND SEVENTH, AGAINST ADULTERERS AND ALL LEWD PERSONS, AND AGAINST MURDERERS AND ALL VIOLENCE.</head>
 
 
-<milestone unit="chapter" n="1"/>THERE was once a time when, devoting my leisure to
+<p><milestone unit="chapter" n="1"/>THERE was once a time when, devoting my leisure to
 philosophy and to the contemplation of the world and the
 things in it, I reaped the fruit of excellent, and desirable, and
 blessed intellectual feelings, being always living among the
@@ -16411,7 +16517,7 @@ begotten ?</p>
 
 
 <p>These enormities formerly took place among the Greeks in
-the case of Cidipus, the son of Laius,<ref n="1"/> and the actions were
+the case of Cidipus, the son of Laius,<ref n="306.1"/> and the actions were
 
 
 <note n="306.1"> This is the subject, in fact, of the Oedipus Tyrannus of Sophocles,
@@ -16435,7 +16541,7 @@ And again he says—
 <l>ἐκτήσαθ᾽ ὑμᾶς ὧνπερ αὐτὸς ἐξέφυ. </l>
 1409.
 
-Philo alludes afterwards to the wars which are the subject of the Ἕπτ' ἐπὶ Θήβας of Aischylus.</p>
+Philo alludes afterwards to the wars which are the subject of the Ἕπτ' ἐπὶ Θήβας of Aischylus.
 
 </note>
 
@@ -16842,7 +16948,7 @@ passion from her despair of being able to gratify it (for love
 which fails in its object is usually increased in no ordinary
 degree), so that at last she reported to Daedalus the
 affliction by which she was overwhelmed, and he was the most
-skilful of all workmen of his time.<ref n="1"/>
+skilful of all workmen of his time.<ref n="314.1"/>
 
 
 <note n="314.1"> This story is alluded to by many poets, and especially by Virgil,
@@ -17055,7 +17161,7 @@ water, since a blameless woman is pure as to her life, and
 deserves to live; and the earth too is to be taken, not from
 any chance spot, but from the soil of the ground of the
 temple, which must, of necessity, be most excellent, just as
-& modest woman is.</p>
+a modest woman is.</p>
 
 
 <p>And when all these things are previously prepared, the
@@ -17157,7 +17263,7 @@ you since you, would be found, by strict examination, not to
 
 ave falsely pretended a passion which you do not feel, or to
 have conceived only a superficial love for her, but one which
-is genuine and thoroughly established.”<ref n="1"/></p>
+is genuine and thoroughly established.”<ref n="320.1"/></p>
 
 
 <p>But if any one, being insane and frantic, repudiating and
@@ -17262,7 +17368,7 @@ have voluntarily given herself up to an illicit connection.
 Wherefore the law, making a very careful and very
 admirably conceived defence, on behalf of a damsel ravished in
 the wilderness, says, “for the damsel cried out, and there
-was no one to help her;’’<ref n="1"/> so that if she neither cried out
+was no one to help her;’’<ref n="322.1"/> so that if she neither cried out
 nor resisted, but willingly consented to her ravisher, she
 must be looked upon as guilty, having only put forward the
 fact of the place, as a sophistical excuse to make it appear
@@ -17308,7 +17414,7 @@ we have this law enacted. .</p>
 
 
 <p>When those men who marry virgins in accordance with
-the law,<ref n="1"/> and who have sacrificed on the occasion and
+the law,<ref n="323.1"/> and who have sacrificed on the occasion and
 celebrated their marriage feast, and who yet afterwards preserve
 no natural affection for their wives but treat them with
 insolence, and behave to freeborn citizens as if they were
@@ -17657,7 +17763,7 @@ throws it at him and knocks him down.</p>
 
 
 <p>And if the wound which the man has received is mortal,
-‘so that he at once dies, then let the man who has struck him
+so that he at once dies, then let the man who has struck him
 also die, suffering the same fate himself which he inflicted
 
 
@@ -17694,7 +17800,7 @@ assault which he committed and also because he has
 prevented nature, who was fashioning and preparing that most
 excellent of all creatures, a human being, from bringing him
 into existence. But if the child which was conceived had
-assumed a distinct shape<ref n="1"/> in all its parts, having received all
+assumed a distinct shape<ref n="330.1"/> in all its parts, having received all
 its proper connective and distinctive qualities, he shall die;
 for such a creature as that is a man, whom he has slain while
 still in the workshop of nature, who had not thought it as
@@ -17814,14 +17920,14 @@ contribute to the perfection of human nature, so that then,
 beyond all question, he who slays an infant is a homicide,
 and the law shows its indignation at such an action; not
 being guided by the age but by the species of the creature
-in whom its ordinances are violated. .
+in whom its ordinances are violated.</p>
 
 
 <pb n="333"/>
 <note type="head">ON sPECIAL LAWS. 333</note>
 
 
-Tf, indeed, it seemed reasonable to be at all influenced by
+<p>If, indeed, it seemed reasonable to be at all influenced by
 the age, then I think that a person might very reasonably be
 even more indignant at those who slay infants. For when
 full-grown people are killed, there may be ten thousand
@@ -17841,7 +17947,7 @@ and pronounce them worthy of death.</p>
 <p><milestone unit="chapter" n="7"/>The sacred law says that the man, who has been
 killed without any intention that he should be so on the part
 of him who killed him, has been given up by God into the
-hands of his slayers;<ref n="1"/> in this way designing to make an
+hands of his slayers;<ref n="333.1"/> in this way designing to make an
 excuse for the man who appears to have slain him as if he
 had slain a guilty person. For the merciful and forgiving
 God can never be supposed to have given up any innocent
@@ -17882,7 +17988,7 @@ world.</p>
 
 <p>Therefore, the law has pronounced the sentence of
 banishment upon him who has slain a man, yet not of banishment
-any where, nor for ever; for it has assigned six cities,<ref n="1"/> one
+any where, nor for ever; for it has assigned six cities,<ref n="334.1"/> one
 fourth portion of what the whole sacred tribe received as its
 inheritance, for those who were convicted of homicide;
 which, from the circumstances connected with them, it has
@@ -17901,7 +18007,7 @@ all the gallant actions that were ever performed. For when
 the prophet, after having been called up to the loftiest and
 most sacred of all the mountains in that district, was
 divinely instructed in the generic outlines of all the special
-laws,<ref n="2"/> and was out of sight of his people for many days ;
+laws,<ref n="334.2"/> and was out of sight of his people for many days ;
 those of the people who were not of a peaceable
 disposition filled every place with the evils which arise
 from anarchy, and crowned all their iniquity with open
@@ -17957,12 +18063,10 @@ privilege of the place, remember and consider that not only
 on certain occasions is forgiveness allowed to those who
 have designedly slain any person, but that even great and
 pre-eminent honours and excessive happiness is bestowed on
+them.</p>
 
 
-ma,
-
-
-And if such honours can ever be allowed to those who
+<p>And if such honours can ever be allowed to those who
 have slain a man voluntarily, how much more must there
 be allowance made for those who have done so not with any
 design, so that, even if no honour be bestowed on them,
@@ -18012,7 +18116,7 @@ the lawgiver’s intention is by means of the privilege
 belonging to the city which has received them to give more
 complete security to the fugitives. Moreover, I said before,
 he has appointed a time for their return, the death of the
-high priest, for the following reason.<ref n="1"/></p>
+high priest, for the following reason.<ref n="336.1"/></p>
 
 
 <p>As the relations of each individual who has been slain
@@ -18165,7 +18269,7 @@ price which he paid for him which, perhaps, was large. If,
 <note type="head">ON SPECIAL LAWS. 839</note>
 
 
-Lowever. the servant turn out to have done any thing worthy
+however, the servant turn out to have done any thing worthy
 of death, let him bring him before the judges and prove his
 vttence, making the laws the arbiters of his punishment
 and not himself.</p>
@@ -18175,7 +18279,7 @@ and not himself.</p>
 CAUSES OF A MAN’S DEATH.</p>
 
 
-<p>If a bull gore a man and kill him, let him be stoned.<ref n="1"/>
+<p>If a bull gore a man and kill him, let him be stoned.<ref n="339.1"/>
 For his flesh may not be either offered in sacrifice by the
 priests, nor eaten by men. Why not? Because it is not
 consistent with the law of God that man should take for
@@ -18224,7 +18328,7 @@ them, or else to put a cover on them; but still they often, out
 <note type="head">3840 PHILO JUDAUS.</note>
 
 
-‘of shameful carelessness or folly, have left such places open, by
+of shameful carelessness or folly, have left such places open, by
 which means some persons have met with destruction. If,
 therefore, any traveller passing along the road, not knowing
 beforehand that there is any such pit, shall step on the hole,
@@ -18232,7 +18336,7 @@ and fall in, and be killed, any one of the relations of the
 dead man who chooses may bring an accusation against
 those who made the pit, and the tribunal shall decide what
 punishment they ought to suffer, or what penalty they ought
-to pay.<ref n="1"/></p>
+to pay.<ref n="340.1"/></p>
 
 
 <p>But if a beast fall in and perish, then they who dug the
@@ -18282,7 +18386,7 @@ others, and he pronounced, “Let not the sun set upon
 <note type="head">ON SPECIAL LAWS. 341</note>
 
 
-persons hanging on a tree;”<ref n="1"/> but let them be buried under
+persons hanging on a tree;”<ref n="341.1"/> but let them be buried under
 the earth and be concealed from sight before sunset. For
 it was necessary to raise up on high all those who were
 enemies to every part of the world, so as to show most
@@ -18321,10 +18425,10 @@ principles of justice. For the agreement as to principles of
 justice and as to the other virtues, is a closer tie than
 relationship by blood ; and if any one violates such an
 agreement, he is set down not only as a stranger and a foreigner,
-but even as an irreconcilable enemy.
+but even as an irreconcilable enemy.</p>
 
 
-“Why then do you pervert and misapply the name of
+<p>“Why then do you pervert and misapply the name of
 goodwill which is a most excellent and humane one, and conceal
 the truth, exhibiting as a veil an effeminate and womanly
 disposition? For are not those persons womanly in whose
@@ -18339,10 +18443,10 @@ disposition? For are not those persons womanly in whose
 minds reason is overcome by compassion? And you do this
 rn order to effect a double iniquity, delivering the guilty from
 punishment, and thinking it fair to punish yourselves, who
-are blameable in no respect whatever, instead of them.”
+are blameable in no respect whatever, instead of them.”</p>
 
 
-<milestone unit="chapter" n="4"/>But these men have this to say in excuse of
+<p><milestone unit="chapter" n="4"/>But these men have this to say in excuse of
 themselves, that they are not pursuing any private advantage for
 themselves, and also that they are influenced by excessive
 affection for their nearest relations, for the sake of the
@@ -18397,10 +18501,10 @@ unfortunates as if they were themselves suffering in the
 persons of others, put an end to their own lives by swords,
 or poison, or halters, thinking it a great piece of good luck
 for persons, liable to such misery, to be able to meet with
-death without torture.
+death without torture.</p>
 
 
-~-But those who did not make haste to kill themselves, but
+<p>But those who did not make haste to kill themselves, but
 who were seized before they could do so, were led away in a-
 row, a8 in the case of actions for inheritance, according to
 their nearness of kindred, the nearest relations first, then
@@ -18417,7 +18521,7 @@ hoped that they might escape detection.</p>
 <p>But perhaps it is not wonderful if men, barbarians by
 nature, utterly ignorant of all gentleness, and under the
 command of despotic authority, which compelled them to
-- give an account of the yearly revenue, should, in order to
+give an account of the yearly revenue, should, in order to
 enforce the payment of the taxes, extend their severities,
 not merely to properties but also to the persons, and even
 to the lives, of those from whom they thought they could
@@ -18427,10 +18531,10 @@ themselves, having a regard to appearance rather than to
 truth, have endured to become, instead, standards of
 injustice, commanding the children of a traitor to be put to death
 with the traitor himself, and in the case of tyrants the five
-families most nearly related to them.
+families most nearly related to them.</p>
 
 
-.. Why is this I should say? For if indeed they have
+<p>Why is this I should say? For if indeed they have
 shared in their wickedness, then let them likewise share in
 their punishment; but if they have not participated in that,
 and if they have not been imitators of such actions, and if
@@ -18449,13 +18553,13 @@ venerable lawgivers, have had virtuous relations; but
 suppose they had been wicked, then it seems to me that you
 not only would never yourselves have devised any such
 commandments as this, but would have been furious with any
-one else who proposed such a law, because<ref n="1"/>...... taking
+one else who proposed such a law, because<ref n="344.1"/>...... taking
 care to avoid all liability to terrible calamity, and desiring
 to live in security, is now in great danger, andis exposed to
-an equal degree of misfortune. ~:
+an equal degree of misfortune.</p>
 
 
-For the one condition is liable to fear, which, thougn a
+<p>For the one condition is liable to fear, which, thougn a
 person may guard against for himself, he will still not
 despise the safety of another, but the other state is free
 from all apprehension, and by it men have often been
@@ -18548,7 +18652,7 @@ love for her husband, should yield to the feelings which overs
 
 power her and rush forth to aid hin, still let her not be so
 audacious as to behave like a man, outrunning the nature
-of a woman ;<ref n="1"/> but even while aiding him let her continue a
+of a woman ;<ref n="346.1"/> but even while aiding him let her continue a
 woman.</p>
 
 
@@ -18583,10 +18687,10 @@ by fear to be moderate and to restrain themselves.</p>
 
 
 <p>And let the punishment be the cutting off of the hand
-which has touched what it ought not to have touched. ;
+which has touched what it ought not to have touched.</p>
 
 
-And it is fitting to praise those who have been the judges
+<p>And it is fitting to praise those who have been the judges
 and managers of the gymnastic games, who have kept women
 from the spectacle, in order that they might not be thrown
 among naked men and so mar the approved coinage of their
@@ -18618,8 +18722,9 @@ persons of high character, who look upon the greater part of
 the injunctions contained in the law as plain symbols of
 obscure meanings, and expressed intimations of what may
 not be expressed. And this other reason alleged is as:
-follows. .
-- There are two kinds of soul, just as there are two sexes
+follows.</p>
+
+<p>There are two kinds of soul, just as there are two sexes
 among human relations; the one a masculine soul, belonging
 to men; the other a female soul, as found in women. The
 masculine soul is that which devotes itself to God alone, as
@@ -18634,7 +18739,7 @@ when it ought rather to cleave to the unchangeable, blessed,
 and thrice happy divine nature.</p>
 
 
-<p>Very naturally, therefore, the law commands<ref n="1"/> that the’
+<p>Very naturally, therefore, the law commands<ref n="347.1"/> that the’
 executioner should cut off the hand of the woman which has
 laid hold of what it should not, speaking figuratively, and
 intimating not that the body shall be mutilated, being deprived
@@ -18710,7 +18815,7 @@ of increasing or diminishing the punishment.</p>
 
 
 of a servant or of a handmaiden, he shall let them depart
-free.’<ref n="1"/> Because, as nature has assigned the chief position
+free.’<ref n="349.1"/> Because, as nature has assigned the chief position
 in the body to the head, having bestowed upon it a situation
 the most suitable to that pre-eminence, as it might givea
 citadel to a king (for having sent it forth to govern the body
@@ -18757,7 +18862,7 @@ these bodies, and their harmonious motions, and the fixed
 seasons of their periodical revolutions, and their meetings,
 
 
-<note n="349.1">Exodus xxi. 26.</note> 
+<note n="349.1">Exodus xxi. 26.</note>
 
 
 <pb n="350"/>
@@ -18765,13 +18870,13 @@ seasons of their periodical revolutions, and their meetings,
 
 
 and eclipses, and re-appearances. After that it proceeded
-; onwards to a comprehension of the increase and decrease of
+onwards to a comprehension of the increase and decrease of
 the moon; of the motions of the sun along the breadth of
 heaven, as he comes from the south towards the north, and
 again recedes from the north towards the south, in order to
 the generation of the fruits of the year, so that they may all
--be brought to perfection, and ten thousand other wonderful
--things besides these. And having looked round and
+be brought to perfection, and ten thousand other wonderful
+things besides these. And having looked round and
 surveyed the things in the earth, and in the sea, and in the air,
 
 
@@ -18792,10 +18897,10 @@ of God, whom it 1s proper to look upon as the Father and
 unrestrained by any bounds, but that they are limited by
 the circumference of one world, as they might be by the
 the walls of a city, the world itself being circumscribed
-within the outermost sphere of the fixed stars,
+within the outermost sphere of the fixed stars.</p>
 
 
-_ ~Moreover it considered also that the Father who created
+<p>Moreover it considered also that the Father who created
 the world does by the law of nature take care of that which
 he has created, exerting his providence in behalf of the
 whole universe and of its parts. In the next place it also
@@ -18929,10 +19034,10 @@ strikes out the tooth of his servant, that organ which is the
 minister and provider of those most necessary things, food
 and life, he shall emancipate him whom he has injured,
 because by the evil which he inflicted on him he has deprived
-him of the service and use of his tooth.
+him of the service and use of his tooth.</p>
 
 
-“Ts then,’ some one will say, “a tooth of equal value
+<p>“Is then," some one will say, “a tooth of equal value
 with an eye?” “ach,” I would reply, “is of equal value
 for the purposes for which they were given, the eye with
 reference to the objects of sight, the teeth with reference to
@@ -19012,24 +19117,26 @@ wickedness of him who has taken them in hand. For in
 like manner the actions of the good are, on the contrary, all
 praiseworthy, being made better by the energies of those
 who apply themselves to them, since in some degree what is
-done resembles in its character the person who does it.
+done resembles in its character the person who does it.</p>
 
 
 <pb n="355"/>
 <note type="head">ON SPECIAL LAWS. 355</note>
+</div>
 
+<div type="textpart" n="chapter">
 
 <head>A TREATISE ON THOSE SPECIAL LAWS WHICH ARE CONTAINED UNDER AND HAVE REFERENCE TO THE EIGHTH, NINTH, AND TENTH COMMANDMENTS ON THEFT.</head>
 
 
-I wave in my previous treatises spoken of the laws
+<p>I wave in my previous treatises spoken of the laws
 relating to adultery and murder, and to all the subordinata
 offences which come under those heads, with, as I persuade
 myself, all the accuracy which the case admits of, and now,
 proceeding in the regular order, I must consider what is the
 third commandment in the second table, but the eighth in
 all, if the two tables are taken together, namely, the
-commandment, “ Thou shalt not steal.”<ref n="1"/></p>
+commandment, “ Thou shalt not steal.”<ref n="355.1"/></p>
 
 
 <p>Whoever carries off or leads away the property of another
@@ -19384,7 +19491,7 @@ he may learn to take good care and to guard against the
 <note type="head">362 PHILO JUDAUS.</note>
 
 
-beginnings<ref n="1"/> of things, and may not awaken and stir up
+beginnings<ref n="362.1"/> of things, and may not awaken and stir up
 ‘an invincible power which might otherwise have remained
 quiet.</p>
 
@@ -19462,7 +19569,7 @@ own life that he himself had no hand in the theft from any
 desire to appropriate what had been deposited with him,
 and that he did not voluntarily give it up to any one else;
 and that, moreover, he is not making a false statement of a
-robbery which has never taken place.<ref n="1"/></p>
+robbery which has never taken place.<ref n="363.1"/></p>
 
 
 <p>For it would be absurd to punish a man who has done
@@ -19534,7 +19641,7 @@ against your neighbour. :
 
 
 “And ye shall not swear by my name to eompass an
-unjust end, and ye shall not profane my name.”<ref n="1"/></p>
+unjust end, and ye shall not profane my name.”<ref n="364.1"/></p>
 
 
 <p>These injunctions are given with great beauty and very
@@ -19566,7 +19673,7 @@ inasmuch as he is defiling that which by nature is undefiled,
 the good and holy name of God.</p>
 
 
-<p>THOU SHALT NOT BEAR FALSE WITNESS.<ref n="1"/></p>
+<p>THOU SHALT NOT BEAR FALSE WITNESS.<ref n="365.1"/></p>
 
 
 <p>This is the ninth of the ten commandments, being the fourth
@@ -19595,7 +19702,7 @@ which he desires and aims at.</p>
 
 <p>For which reasons, in many “parts of his enactment of the
 law, he commands that we should not approve of any wicked
-man or action.<ref n="2"/> For any approbation of what is not
+man or action.<ref n="365.2"/> For any approbation of what is not
 virtuous is likely to lead to giving false evidence; since
 every one to whom iniquity is a disagreeable and hateful
 thing is a friend of truth. Now there is no great wonder
@@ -19662,7 +19769,7 @@ from anchoring in the safe havens of truth. For such
 persons think proper to say whatever they conjecture, not
 as if they were things which they themselves had found out,
 but as if they were divine oracles revealed to themselves
-alone, for the more complete inducement of great and’
+alone, for the more complete inducement of great and
 numerous crowds to believe a deceit.
 
 
@@ -19691,9 +19798,9 @@ so that the falsehood which has previously overshadowed it
 will disappear.</p>
 
 
-<p>Moreover there also was an excellent<ref n="1"/> commandment
+<p>Moreover there also was an excellent<ref n="367.1"/> commandment
 that Moses gave when he ordained that the judge should
-“ not receive the testimony of one witness.’+ First of all,
+“ not receive the testimony of one witness.’<ref n="367.2"/> First of all,
 because it is possible that one person may without
 designing it have a false impression of a thing, or may be careless
 about it and therefore be deceived. For there are
@@ -19708,7 +19815,7 @@ should the judge trust a single witness, bearing testimony
 against another, rather than the defendant pleading in his
 own behalf? But, as it should seem, it is best to suspend
 one’s opinion, where there is no deficiency and no excess to
-guide the judgment.
+guide the judgment.</p>
 
 
 <note n="367.1"> Numbers xaxxv. 30. </note>
@@ -19720,7 +19827,7 @@ guide the judgment.
 <note type="head">868 PHILO JUDAUS.</note>
 
 
-ON THE OFFICE AND CHARACTER OF A JUDGE.</p>
+
 
 
 <p><milestone unit="chapter" n="1"/>Tux law thinks that all those who adhere to the sacred
@@ -19759,7 +19866,7 @@ safety of those who have committed their interests to him.</p>
 
 
 <p><milestone unit="chapter" n="2"/>In the first place the law enjoins the judge not to
-listen to vain reports.<ref n="1"/> Why is this? The law says, “My
+listen to vain reports.<ref n="368.1"/> Why is this? The law says, “My
 good man, let thy ears be purified.’ And they will be
 purified if they are continually washed out with a stream of
 
@@ -19803,7 +19910,7 @@ certain.</p>
 
 
 <p><milestone unit="chapter" n="3"/>The seeond commandment given to a judge 1s not
-to receive gifts;<ref n="1"/> for gifts, says the law, blind the eves
+to receive gifts;<ref n="369.1"/> for gifts, says the law, blind the eves
 that see, and pervert justice, and do not permit the mina
 to travel along the level road which leads to righteousness ;
 and to receive bribes to aid in unjust actions is the action
@@ -19848,7 +19955,7 @@ iniquities ; and secondly, because he is injuring the man whom
 he ought to benefit; by making him pay a price for justice ;
 on which account Moses has very instructively commanded,
 that the judge shall pursue what is righteous in a righteous
-manner ;<ref n="1"/> intimating under this figurative expression, that
+manner ;<ref n="370.1"/> intimating under this figurative expression, that
 it is possible to do so in an unrighteous manner, because of
 those men who sell just and legal decisions for money, not
 only in the courts of justice, but everywhere in every part
@@ -19928,7 +20035,7 @@ the suit are, and that he should look at the undisguised,
 simple nature of the transactions themselves; so as not to
 be liable to judge in accordance with random opinion, but
 according to real truth, and to be guided by such an opinion
-as this, that judgment is of God ;<ref n="1"/> and that the judge is the
+as this, that judgment is of God ;<ref n="371.1"/> and that the judge is the
 minister and steward of his judgment; and a steward is not
 allowed to give away the things of his master, as he has
 received as a pledge the most excellent of all the things
@@ -19950,7 +20057,7 @@ beings.</p>
 <p>ve And in addition to what has already been said, there
 is another most admirable precept given which enjoins the
 judge “not to show pity upon the poor man in his
-judgment.”’<ref n="1"/></p>
+judgment.”’<ref n="372.1"/></p>
 
 
 <p>While in other precepts the lawgiver has filled nearly the
@@ -20051,7 +20158,7 @@ and hurried into ravines and pits from which it is difficult
 to rise up, and very hard to escape with safety.</p>
 
 
-<p>But of all the passions there is not one so grievous as &
+<p>But of all the passions there is not one so grievous as a
 covetous desire of what one has not got, of things which
 
 
@@ -20075,7 +20182,7 @@ behind and coming too late to succeed, struggles, bearing
 a Tantalus-like punishment in its miserable future ; for it is
 said that Tantalus, when he desired to obtain any liquor to
 drink, was not able to do so, as the water retreated from his
-lips,<ref n="1"/> and if he wished to gather any fruit, it all
+lips,<ref n="374.1"/> and if he wished to gather any fruit, it all
 
 
 <note n="374.1"> The story of Tantalus is told in Homer, Od. xi. 581.
@@ -20139,7 +20246,7 @@ things which appear to be objects of desire and contention
 in human life.</p>
 
 
-<p>And as the disease which the physicians call the herpes,<ref n="1"/>
+<p>And as the disease which the physicians call the herpes,<ref n="375.1"/>
 does not stop in one part of the body, but moves about and
 overruns the skin, and, as its name shows, creeps about
 (dséeres), and becomes diffused in every direction, and
@@ -20183,7 +20290,7 @@ is owing to this passion that all the terrible evils which are
 caused by naval wars have happened; and, coming upon all
 continents and all islands together, have thrown them into
 confusion, spreading everywhere and returning in their own
-steps like the warriors in the diaulos,<ref n="1"/> or like the ebb and
+steps like the warriors in the diaulos,<ref n="376.1"/> or like the ebb and
 flow of the tides of the sea, returning to the point from
 which they originally set out.</p>
 
@@ -20319,13 +20426,13 @@ either of them unrestrained, but has bridled them with
 especial commands most calculated to lead them to temperance
 and to humanity, and to the greatest of all virtues, piety ;
 for he commanded men to offer first fruits of corn, and wine,
-and oil, and cattle, and other things ;<ref n="1"/> and to distribute
+and oil, and cattle, and other things ;<ref n="378.1"/> and to distribute
 the first fruits among the sacrificers and the priests; among
 the sacrificers because of the gratitude due to God for
 the abundance and fertility of all things, and to the priests
 because of their sacred ministrations about the temple, and
 therefore they were worthy to receive wages for their services
-in respect of the sacred ceremonies.<ref n="2"/> And he utterly
+in respect of the sacred ceremonies.<ref n="378.2"/> And he utterly
 forbids any one to taste of anything, or to take any portion of
 anything, before separating off the first fruits, wishing also
 by this injunction to inculcate the practice of most useful
@@ -20424,7 +20531,7 @@ disposition to plot evil against anything.</p>
 <p>The animals which are clean and lawful to be used as food
 are ten in number; the heifer, the lamb, the goat, the stag,
 the antelope, the buffalo, the roebuck, the pygarg, the
-wildox, and the chamois,<ref n="1"/> for he always adheres to that
+wildox, and the chamois,<ref n="380.1"/> for he always adheres to that
 arithmetical subtilty which, as he originally devised it with the
 minutest accuracy possible, he extends to all existing things,
 so that he establishes no ordinances, whether important or
@@ -20439,7 +20546,7 @@ most sacred of all and a holy number, and by it he now
 limits the races of animals that are clean, wishing to assign
 the use of them to all those who partake of the constitution
 which he is establishing. And he gives two tests and
-criteria of the ten animals thus enumeratedt by two signs,
+criteria of the ten animals thus enumerated<ref n="380.2"/> by two signs,
 first, that they must part the hoof, secondly, that they must
 chew the cud; for those which do neither, or only one of
 these things, are unclean.</p>
@@ -20503,9 +20610,9 @@ most excellent.</p>
 <p>Having laid down these definitions with respect to land
 animals, he proceeds to describe what aquatic creatures are
 clean and lawful to be used for food; distinguishing them.
-also by two characteristics as having fins or scales.<ref n="1"/> For
+also by two characteristics as having fins or scales.<ref n="381.1"/> For
 those which have neither one nor the other, and those which
-have only one of the two, he rejects and prohibits.<ref n="2"/> And
+have only one of the two, he rejects and prohibits.<ref n="381.2"/> And
 he must state the cause, which is not destitute of sense and
 propriety ; for all those creatures which are destitute of.
 
@@ -20544,7 +20651,7 @@ weary before they reach it immortal, if they are only able to
 endure its rugged and difficult ascent.</p>
 
 
-<p>ABOUT REPTILES.<ref n="1"/></p>
+<p>ABOUT REPTILES.<ref n="382.1"/></p>
 
 
 <p>And adhering to the same general idea the lawgiver
@@ -20606,7 +20713,7 @@ for by those who come to it of their own accord with no
 indolence or indifference.</p>
 
 
-<p>CONCERNING FLYING CREATURES.<ref n="1"/></p>
+<p>CONCERNING FLYING CREATURES.<ref n="383.1"/></p>
 
 
 <p>Having, therefore, in his ordinances already gone through
@@ -20645,7 +20752,7 @@ extinction of appetite.</p>
 TORN BY WILD BEASTS.</p>
 
 
-<p>Moreover, Moses commands<ref n="1"/> that no man shall take of
+<p>Moreover, Moses commands<ref n="384.1"/> that no man shall take of
 any dead carcass, or of any body which has been torn by
 wild beasts; partly because it is not fitting that man should
 share a feast with untameable beasts, so as to become almost
@@ -20709,7 +20816,7 @@ excessive luxury and boundless intemperance of
 Sardanapalus to such an indefinite and unlimited extent, being
 wholly absorbed in the invention of senseless pleasures,
 that they prepare sacrifices which ought never be offered,
-strangling their victims, and stifling the essence of life,<ref n="1"/>
+strangling their victims, and stifling the essence of life,<ref n="385.1"/>
 which they ought to let depart free and unrestrained, burying
 the blood, as it were, in the body. For it ought to have
 been sufficient for them to enjoy the flesh by itself, without
@@ -20719,7 +20826,7 @@ the soul or life.</p>
 
 <p>On which account Moses, in another passage, establishes
 a law concerning blood, that one may not eat the blood nor
-the fat.<ref n="2"/> The blood, for the reason which I have already
+the fat.<ref n="385.2"/> The blood, for the reason which I have already
 mentioned, that it is the essence of the life; not of the
 mental and rational life, but of that which exists in
 accordance with the outward senses, to which it is owing that
@@ -20793,10 +20900,10 @@ punishment might fall on those who were intemperate in their
 gluttonous appetites, and obstinate resisters of holiness.</p>
 
 
-<p>For a vast cloud being raised<ref n="1"/> out of the sea showered
+<p>For a vast cloud being raised<ref n="386.1"/> out of the sea showered
 down quails about the time of sunrise, and the camp and
 all the district around it for a day’s journey for a well-girt
-active man was overshadowed all about with the birds.
+active man was overshadowed all about with the birds.<ref n="386.2"/>
 And the height of the flight of the birds was distant from
 the ground a height of about two cubits, in order that they
 might be easily caught. It would have been natural
@@ -21078,14 +21185,15 @@ mention.</p>
 
 <p>There is also this commandment ordained which is of
 great common utility, that, “ Thou shalt not move thy
-neighbours’ land-marks which the former men have set up.”<ref n="1"/> And
+neighbours’ land-marks which the former men have set up.”<ref n="391.1"/> And
 this injunction is given, as it seems, not only with respect
 to inheritances, and to the boundaries of the land, in order
 to prohibit covetousness respecting them, but also as a guard
 to ancient customs; for customs are unwritten laws, being
 the dcetrines of men of old, not engraved on pillars or
 written on paper which may be eaten by moths, but
-.<ref n="1"/> Deuteronomy xix. 14.
+
+<note n="391.1"> Deuteronomy xix. 14.</note>
 
 
 <pb n="392"/>
@@ -21179,7 +21287,7 @@ own soul, makes no mention of any authority being
 assigned by lot, but he has chosen to direct that all offices
 shall be elected to; therefore he says, “Thou shalt not
 appoint a stranger to be a ruler over thee, but one of thine
-own brethren,”’<ref n="1"/> implying that the appointment is to be a
+own brethren,”’<ref n="393.1"/> implying that the appointment is to be a
 voluntary choice, and an irreproachable selection of a ruler,
 whom the whole multitude with one accord shall choose ;
 and God himself will add his vote in favour of, and set his
@@ -21228,7 +21336,7 @@ those who were in need of it, making his own wealth common.</p>
 
 <p><milestone unit="chapter" n="4"/>And from the first day on which any one enters upon
 his office, he orders that he shall write out a copy of the
-book of the law<ref n="1"/> with his own hand, which shall supply him
+book of the law<ref n="394.1"/> with his own hand, which shall supply him
 with a summary and concise image of all the laws, because
 he wishes that all the ordinances which are laid down in it
 shall be firmly fixed in his soul; for while a man is reading
@@ -21393,7 +21501,7 @@ everlastingly coming upon him, he gave him most excellent advice,
 counselling him to choose subordinate magistrates, that the
 might decide the less important affairs, and that he might
 Have only the more serious causes to occupy him, and by
-this means provide himself with time for rest.<ref n="1"/> And Moses,
+this means provide himself with time for rest.<ref n="397.1"/> And Moses,
 being convinced by the arguments of Jethro (for, indeed,
 they were for his good), having chosen the men of the
 highest reputation in the whole nation, he appointed them
@@ -21438,7 +21546,7 @@ for when Moses, that holy interpreter of the will of God, is
 raising a hymn in praise of the virtues of the living God in
 these terms, “God is great and mighty, one who is no
 respecter of persons, and who does not take gifts to guide
-him in his judgment,”<ref n="1"/> he adds, in whose case it is that he
+him in his judgment,”<ref n="398.1"/> he adds, in whose case it is that he
 gives judgment, not in the case of satraps, and tyrants, and
 men who have the power by land and sea, but he gives
 judgment respecting the stranger, and the orphan, and the
@@ -21526,7 +21634,7 @@ deserves reproach.</p>
 <p><milestone unit="chapter" n="7"/>The law also forbids, by a most just and reasonabl?
 prohibition, the man who has undertaken the care and
 government of the common interests of the state, to behave
-with treachery among the people;<ref n="1"/> for a treacherous
+with treachery among the people;<ref n="400.1"/> for a treacherous
 disposition is the mark of an illiberal and very slavish soul,
 which seeks to overshadow its real nature by hypocrisy ; for,
 in reality, a ruler ought to stand up in defence of his
@@ -21696,7 +21804,7 @@ piety ¢
 
 
 <milestone unit="chapter" n="10"/>Also this commandment is given with exceeding
-propriety,<ref n="1"/> which forbids anyone from blaspheming and speaking
+propriety,<ref n="403.1"/> which forbids anyone from blaspheming and speaking
 ill, especially of a deaf man, and of one who is unable to
 perceive by the aid of his outward senses the injuries which
 are done to him, nor to retaliate in an equal manner under
@@ -21981,7 +22089,7 @@ commandments of a more general nature of which he enjoins the
 observance to the whole nation in common, recommending
 them to attend to them, not only with regard to their own
 friends and allies, but also to those who are unconnected with
-their alliance, For if, says Moses,<ref n="1"/> they shut themselves up
+their alliance, For if, says Moses,<ref n="408.1"/> they shut themselves up
 within their walls and make their necks stiff, then let your
 young men arm themselves well, and being provided with all
 the preparations necessary for war, go forth and fortify their
@@ -22083,7 +22191,7 @@ purposes.</p>
 to justice ; but as for justice itself, what poet or orator could
 celebrate it, in worthy terms, since it is beyond all panegyric
 and all praise? At all events, there is one most important
-good thing belonging to it,<ref n="1"/> which, even if one were to pass
+good thing belonging to it,<ref n="410.1"/> which, even if one were to pass
 over and be silent about all its other parts, would be an
 allsufficient panegyric on it; for this is the principle of equality,
 which is, as those who have accurately investigated the secrets
@@ -22171,7 +22279,7 @@ be best to be satisfied with what has already been said, which
 may be sufficient to rouse up the recollection of those persons
 who are fond of learning, and to leave the remaining
 circumstances unwritten in their souls, as divine images in a most
-sacred place.
+sacred place.</p>
 </div>
 
 <div type="textpart" subtype="chapter">
@@ -22179,12 +22287,12 @@ sacred place.
 <head>A TREATISE ON THREE VIRTUES, THAT I$ TO SAY, ON COURAGE, HUMANITY, AND REPENTANCE, ON COURAGE.</head>
 
 
-<milestone unit="chapter" n="1"/>Having previously said all that appeared to be necessary
+<p><milestone unit="chapter" n="1"/>Having previously said all that appeared to be necessary
 about justice, and those precepts which are closely connected
 with it, I now proceed in regular order to speak of courage,
 not meaning by courage that warlike and frantic delirium,
 ' under the influence of passion as its counsellor, which the
-generality of men take for it, but knowledge ;<ref n="1"/> for some
+generality of men take for it, but knowledge ;<ref n="412.1"/> for some
 persons, being elated by boldness when they have bodily
 strength to assist them, array themselves in the ranks of war,
 in complete armour, and slay innumerable hosts of the enemy
@@ -22344,7 +22452,7 @@ consists in a good admixture of the powers conversant with
 hunger, and appetite, and reason, the reasoning power having
 the predominance, and guiding the other two, as a charioteer
 guides and restrains restive horses; the proper name of this
-healthy state of the soul is moderation,<ref n="1"/> which produces
+healthy state of the soul is moderation,<ref n="415.1"/> which produces
 salvation to the thinking part of the faculties in us; for as it is
 constantly in danger of being overwnelmed by the impetuosity of
 the passions, moderation suffers it not to be sunk in the
@@ -22727,7 +22835,7 @@ fact that many myriads of men were defeated by a few, and
 that not one man of the enemy escaped, and that not one of
 their own troops was slain, and that the army was not
 diminished in either number or power; on which account Moses
-says in his exhortations to his people :<ref n="1"/> “ If you practise
+says in his exhortations to his people :<ref n="422.1"/> “ If you practise
 justice, and holiness, and the other virtues, you shall enjoy a life
 
 
@@ -22874,7 +22982,7 @@ look out for himself a man to be over this multitude, to
 undertake the care and superintendence of a shepherd, who shall
 lead them in a blameless manner, in order that this nation
 may not become corrupt like a flock which is scattered abroad,
-as having no shepherd.”<ref n="1"/></p>
+as having no shepherd.”<ref n="425.1"/></p>
 
 
 <p>And yet who was there of all the men of that time who
@@ -23136,7 +23244,7 @@ beginning with men.</p>
 
 
 <p><milestone unit="chapter" n="6"/>Therefore Moses forbids a man to lend on usury to his
-brother,<ref n="1"/> meaning by the term brother not only him who is
+brother,<ref n="430.1"/> meaning by the term brother not only him who is
 born of the same parents as one’s self, but every one who is a
 fellow citizen or a fellow countryman, since it is not just to
 exact offspring from money, as a farmer does from his cattle.
@@ -23201,7 +23309,7 @@ them.</p>
 
 
 <p><milestone unit="chapter" n="7"/>Again, among the different commands which conduce
-to the extension of humanity, there is this one also established,<ref n="1"/>
+to the extension of humanity, there is this one also established,<ref n="431.1"/>
 that every employer is to pay the wages of the poor man the
 same day that they are earned, not only because, since he has
 fulfilled the purpose for which he was hired, it is just that he
@@ -23230,7 +23338,7 @@ himself to the performance of his ordinary tasks.</p>
 
 <p><milestone unit="chapter" n="8"/>Again, the lawgiver says, let no one who lends on
 usury enter the house of his debtors to take by force any
-security or pledge for his debt,<ref n="1"/> but let him stand without in
+security or pledge for his debt,<ref n="432.1"/> but let him stand without in
 the outer court, and wait there entreating his debtor quietly to
 bring him a pledge; and if he have a pledge to give, let him
 not evade giving it, since it is fitting that the creditor should
@@ -23243,7 +23351,7 @@ adequate security.</p>
 
 <p><milestone unit="chapter" n="9"/>And who is there who can avoid admiring the
 proclamation or commandment about reapers and gatherers of the
-fruit of the vineyard? For Moses commands that at the
+fruit of the vineyard?<ref n="432.2"/> For Moses commands that at the
 time of harvest the farmer shall not gather up the corn which
 falls from the sheaves, and that he shall not cut down all the
 crop, but that he shall leave a portion of the field unreaped, by
@@ -23262,7 +23370,7 @@ glean the vineyards a second time.</p>
 
 
 <p>And he also gives the same command to those who are
-gathering olives.{ Like a most affectionate father, whose
+gathering olives.<ref n="432.3"/> Like a most affectionate father, whose
 children are not all in the enjoyment of equal good fortune,
 since some of them live in abundance, while others are reduced
 to the very extremity of poverty; but he, commiserating and
@@ -23271,7 +23379,11 @@ their brethren, using what thus belongs to others as it were
 their own, not in so doing inviting them to any action of
 
 
-® Deut. xxiv. 10. + Deut. xxiv. 19, tT Deut. xxiv. 20.
+<note n="432.1">Deut. xxiv. 10.</note>
+
+<note n="432.2">Deut. xxiv. 19.</note>
+
+<note n="432.3">Deut. xxiv. 20.</note>
 
 
 <pb n="433"/>
@@ -23320,7 +23432,7 @@ against their will by his sacred laws, which the virtuous man
 obevs voluntarily, and the wicked man unwillingly.</p>
 
 
-<p><milestone unit="chapter" n="10"/>The laws command<ref n="1"/> that the people should offer to the
+<p><milestone unit="chapter" n="10"/>The laws command<ref n="433.1"/> that the people should offer to the
 priests first fruits of corn, and wine, and oil, and of their
 domestie flocks, and of wools. But that of the crops which are
 produced in the fields, and of the fruits of the trees, they
@@ -23452,7 +23564,7 @@ the usual way of living and to the necessary requirements of
 
 life, which the law enjoins that the foreigners shall receive
 from the natives of the land; for all these things follow the
-one general law of benevolence, which enjoins every man to<
+one general law of benevolence, which enjoins every man to
 love and cherish a stranger in the same degree with himself.</p>
 
 
@@ -23479,7 +23591,7 @@ having received them in the land, may have ill-treated them,
 since, though their actions may not have been kind, their name
 at least resembles the characteristics of humanity. Therefore
 he says, in express terms, ‘“ Thou shalt not curse the Egyptian,
-because thou wast a sojourner in the land of Egypt.”<ref n="1"/> And
+because thou wast a sojourner in the land of Egypt.”<ref n="436.1"/> And
 yet what evil did the Egyptians ever omit to inflict upon this
 nation, being continually adding new davices of cruelty to the
 old ones, and proceeding by all sorts of fresh contrivances to
@@ -23514,7 +23626,7 @@ descendants of God’s chosen people.</p>
 <p><milestone unit="chapter" n="14"/>These, then, are the ordinances which he enacts for
 the sojourners in respect of those who have received them into
 their land, and he also establishes other merciful laws, full of
-gentleness and humanity, on behalf even of enemies ;”<ref n="1"/> for
+gentleness and humanity, on behalf even of enemies ;”<ref n="437.1"/> for
 he thinks it right with respect to them, even if they are at the
 gates, and standing under the very walls ready to attack them
 in their complete armour, and raising their warlike engines
@@ -23528,7 +23640,7 @@ repel them with a good hope of victory.</p>
 
 
 <p>Moreover, if, after having taken prisoners in a sally, you
-should entertain a desire for a beautiful woman amongst them, f
+should entertain a desire for a beautiful woman amongst them,<ref n="437.2"/>
 do not satiate your passion, treating her as a captive, but act
 with gentleness, and pity her change of fortune, and alleviate
 her calamity, regulating everything for the best; and you will
@@ -23587,7 +23699,7 @@ afterwards sated with enjoyment, no longer chooses to continue his
 cohabitation with his captive, then the lawgiver does not so
 much punish him as admonish him and correct him, with a
 view to the improvement of his disposition, for he commands
-him in snch a case not to sell her,<ref n="1"/> nor to retain her any
+him in snch a case not to sell her,<ref n="438.1"/> nor to retain her any
 longer as a slave, but to give her liberty freely, and to allow
 her to depart from his house with impunity, in order that she
 may not be exposed to some intolerable suffering when any
@@ -23599,7 +23711,7 @@ allured.</p>
 
 
 <p><milestone unit="chapter" n="15"/>And thus the lawgiver pouring precept after precept
-into ready and obedient ears, enjoins humanity.<ref n="2"/>
+into ready and obedient ears, enjoins humanity.<ref n="438.2"/>
 
 
 Moreover, even if any beasts of burden belonging to the
@@ -23611,7 +23723,7 @@ not to be delighted at the unexpected misfortunes even of
 those who hate them, knowing that to rejoice in the disasters
 
 
-<note n="438.1">Deuteronomy xxi. 14.</note> 
+<note n="438.1">Deuteronomy xxi. 14.</note>
 
 <note n="438.2">Exodus xxiii, 5.</note>
 
@@ -23630,7 +23742,7 @@ neighbour.</p>
 
 
 <p>Also the law proceeds to say, If you see the beast of one
-who is thy enemy<ref n="1"/> wandering about, leave the excitements
+who is thy enemy<ref n="439.1"/> wandering about, leave the excitements
 to quarrelling to more perverse dispositions, and lead the
 animal back and restore him to his owner ; for so you will not
 be benefiting him more than yourself; since he will by this
@@ -23665,7 +23777,7 @@ observance of free-born men are these and others like them.
 And as it seems he also has established other regulations
 consistent with them respecting slaves; all of which tend to
 engender gentleness and humanity, of which he gives a share
-even to slaves. Accordingly f he thinks it fit that those who,
+even to slaves. Accordingly <ref n="439.2"/> he thinks it fit that those who,
 
 
 <note n="439.1"> Exodus xxiii. 4.</note>
@@ -23847,7 +23959,7 @@ pretence of sacrifice, the other for the gratification of the belly.</p>
 
 <p>If then it is on pretence of offering them in sacrifice, then
 the very name is given with falsehood; for animals taken for
-such purpose are victims, not sacrifices.<ref n="1"/> And what altar of
+such purpose are victims, not sacrifices.<ref n="443.1"/> And what altar of
 God would ever receive such unholy sacrifices? And as for
 the fire, would it not of its own accord divide itself in two
 parts and stand asunder, avoiding all the contamination which
@@ -23951,7 +24063,7 @@ And having also given a command that no one shall sacrifice
 the mother and the offspring on the same day, he goes further,
 and is quite prodigal on the particularity of his injunctions,
 adding this also, “Thou shalt not seethe a lamb in his
-mother's milk.”<ref n="1"/></p>
+mother's milk.”<ref n="445.1"/></p>
 
 
 <p>For he looked upon it as a very terrible thing for the
@@ -23994,7 +24106,7 @@ have gone before it, and which forbids a man to “ muzzle the
 <note type="head">446 PHILO JUDAUS.</note>
 
 
-ox which treadeth out the com.”<ref n="1"/> For it is he who, before
+ox which treadeth out the com.”<ref n="446.1"/> For it is he who, before
 the sowing was performed, cut the furrows through the
 deepsoiled plain, and prepared the field for the operations of heaven
 and for the labours of the husbandman ; for the latter, so that
@@ -24017,7 +24129,7 @@ command respecting the oxen which tread out the corn, I will
 now proceed to speak of that one which relates to the animals
 which plough, which is also of the same family; for the
 lawgiver also forbids the husbandman to yoke the ox and the ass
-together in the same plough for ploughing,<ref n="2"/> considering in this
+together in the same plough for ploughing,<ref n="446.2"/> considering in this
 not only the difference of nature between the two animals,
 because the one is clean, while the ass is one of the unclean
 beasts, and it is not becoming to bring together animals which
@@ -24058,7 +24170,7 @@ already about men, and about all animals which are endowed
 with life.</p>
 
 
-<p>He has forbidden in express words<ref n="1"/> to cut down for timber
+<p>He has forbidden in express words<ref n="447.1"/> to cut down for timber
 any trees which bear eatable fruit, and to ravage a plain
 bearing corn before its proper season for the purpose of destroying
 it, and, in short, to destroy any kind of crop in any manner, in
@@ -24249,7 +24361,7 @@ men are entirely filled, and like those who have drunk great
 quantities of strong wine become intoxicated, and in their
 drunkenness they attack slaves and free men all alike, and
 at times even whole cities; for satiety produces insolence, as
-the proverb of the ancients tells us.<ref n="1"/> On which account
+the proverb of the ancients tells us.<ref n="450.1"/> On which account
 Moses, when declaring the will of God, enjoins men to abstain
 from every description of offence, and, above all, from
 arrogance. And afterwards he reminds them of the things which
@@ -24287,7 +24399,7 @@ radiant virtue is displayed to the world.</p>
 hanghtiness, choosing to collect together the causes on
 account of which he enjoins men to erect in their souls an
 undying recollection of God; ‘ For God,” says Moses, “ gives
-strength to get power,”<ref n="1"/> speaking in this very instructively ;
+strength to get power,”<ref n="451.1"/> speaking in this very instructively ;
 for the man who has been accurately and thoroughly taught
 that he has received an endowment of great strength and
 vigour from God, will take into consideration the weakness
@@ -24362,7 +24474,7 @@ who are inflated by arrogance, and are altogether possessed by
 incurable pride, not before the tribunal of men, but before the
 judgment seat of God, to which alone it has assigned the
 office of judging them ; for it says, " Whosoever attempts to do
-anything in a haughty arrogant manner, makes God angry.’’<ref n="1"/>
+anything in a haughty arrogant manner, makes God angry.’’<ref n="452.1"/>
 Why so, because in the first place, haughty arrogance is a vice
 of the soul ; but the soul is invisible to any one but God.</p>
 
@@ -24372,14 +24484,14 @@ as ignorance is his accuser: but if he does so with his eyes
 open, he is to be praised as doing everything with knowledge ;
 and secondly, because every haughty arrogant man is full of
 vain groundless pride, looks upon himself as neither man nor
-demigod, but rather as an actual deity, as Pindar says,
+demigod, but rather as an actual deity, as Pindar says,<ref n="452.2"/>
 
 
 <note n="452.1"> Numbers xv. 30.</note>
 
 <note n="452.2"> Pindar says nothing of the sort. The passage which Philo appears
-think to allude to is the beginning of the second Olympic Ode:
-<note n="452.1">
+ to allude to is the beginning of the second Olympic Ode:
+
 <l>ἀναξίφόρμιγγες ὕμνοι</l>
 <l>τίνα θεὸν τιν᾽ ἡρῶα</l>
 <l>τίνα δ᾽ ἄνδρα κελαδήσομεν,</l>
@@ -24401,7 +24513,7 @@ which Horace has translated, Od. I. xii. 1.
 <note type="head">ON REPENTANCE. 453</note>
 
 
-ing himself worthy to overstep all the boundaries of human
+thinking himself worthy to overstep all the boundaries of human
 nature.</p>
 
 
@@ -24550,7 +24662,7 @@ excessive difficulty, nor one removed far out of our reach, being
 neither above us in the air nor on the extreme borders of the
 séa, so that we are unable to take hold of it; but itis near us,
 abiding, in fact, in three portions of us, namely, in our mouths,
-and our hearts, and our hands ;<ref n="1"/> by symbols, that is to say, in
+and our hearts, and our hands ;<ref n="455.1"/> by symbols, that is to say, in
 our words, and counsels, and actions; for the mouth is the
 symbol of speech, and the heart of counsels, and the hands of
 actions, and in these happiness consists. For when such as the
@@ -24574,7 +24686,7 @@ God takes it in hand and produces this harmony.</p>
 
 <p>For which reason this oracular declaration was given with
 great propriety, and in perfect accordance with what has been
-said above,<ref n="1"/> “Thou hast this day chosen the Lord to be thy
+said above,<ref n="456.1"/> “Thou hast this day chosen the Lord to be thy
 God, and the Lord has this day chosen thee to be his people.”
 It is a very beautiful exchange and recompense for this choice
 on the part of man thus displaying anxiety to serve God, when
@@ -24595,7 +24707,7 @@ whole of the army, since, if he is slain, the whole army is
 defeated as much as if it had been slain to a man and utterly
 destroyed ; so in the same manner the wise man is, as to im»
 portance, on a par with the whole nation, being defended by
-that indestructible impregnable fortress, piety towards God.
+that indestructible impregnable fortress, piety towards God.</p>
 </div>
 
 <div type="textpart" subtype="chapter">
@@ -24603,7 +24715,7 @@ that indestructible impregnable fortress, piety towards God.
 <head>A TREATISE ON REWARDS AND PUNISHMENTS.</head>
 
 
-<milestone unit="chapter" n="1"/>We find, then, that in the sacred oracles delivered by the
+<p><milestone unit="chapter" n="1"/>We find, then, that in the sacred oracles delivered by the
 prophet Moses, there are three separate characters; for a
 portion of them relates to the creation of the world, a portion
 1s historical, and the third portion is legislative. Now the
@@ -24799,7 +24911,7 @@ from home, and solitude.</p>
 <p>For Moses says, with reference to one who fled from the
 audacious innovations of the body, and who came over to the
 interests of the soul, “‘ He was not found because God changed
-his place;”<ref n="1"/> and by this enigmatical expression the two
+his place;”<ref n="460.1"/> and by this enigmatical expression the two
 things are clearly intimated, the migration by the change of
 place, and the solitude by his not being found. And very
 appropriately is this stated; for if in real truth man had
@@ -24837,7 +24949,7 @@ object present by which it can be inflamed. And if it does
 rise up and quit its former abode, still let it avoid the
 assemblies of the multitude, embracing solitude; for there are
 snares in a foreign land resembling those, which are found in
-& man’s own country into which those men must fall who are
+a man’s own country into which those men must fall who are
 careless and do not look before them, and who rejoice in the
 society of the multitude; for the multitude is a very
 concentration of every thing that is irregular, disorderly, improper,
@@ -25160,7 +25272,7 @@ their ideas of God from God, of light from light.</p>
 <p><milestone unit="chapter" n="8"/>We have now described the greatest prize of all:
 but in addition to these prizes, the meditator on virtue receives
 another prize, not well-sounding indeed as to name, but very
-excellent to be conceived of; and this prize is called<ref n="1"/> the
+excellent to be conceived of; and this prize is called "the
 torpor of breadth,” speaking figuratively. Now by breadth
 haughtiness and arrogance are typified; the soul, in those
 conditions, pouring forth an immoderate effusion over objects
@@ -25189,7 +25301,7 @@ which it is seeking without trouble; as if there was some
 prompter within enriching it with inventions ; for the prompt
 
 
-HH’
+
 
 
 <pb n="468"/>
@@ -25450,7 +25562,7 @@ man may never receive pleasure from any accident of fortune,
 nor ever feel a desire even for anything pleasant; and it
 leaves him only those affections conversant about evil, sorrow
 without any mixture of cheerfulness, and unmingled fear,
-for the scripture says<ref n="1"/> that God laid a curse upon the fratricide,
+for the scripture says<ref n="472.1"/> that God laid a curse upon the fratricide,
 so that he should be continually groaning and trembling.</p>
 
 
@@ -25541,7 +25653,8 @@ priest, and had given the inferior priesthood to his nephews, he
 still was not so much indignant at that, though it was a
 shocking thing, as at this other all terrible idea that they were
 imputing to him a contempt for the sacred oracles, in accordance
-with which the election of priests had taken place.<ref n="474.1"/> ... <ref n="474.2"/></p>
+with which the election of priests had taken place.<ref n="474.1"/> ...
+<ref n="474.2"/></p>
 
 
 <p><milestone unit="chapter" n="14"/>And there is a distinct evidence in confirmation of
@@ -25711,7 +25824,7 @@ they will, being full of confidence, behave with great insolence,
 but after they have once come to a regular contest they will
 then find that they have made an empty boast, and that they
 are unable to gain the victory ; for as they will be repelled by
-force equal to their own,<ref n="1"/> or even more powerful still, they
+force equal to their own,<ref n="477.1"/> or even more powerful still, they
 will flee in great confusion, a hundred fleeing before five, and
 a host of ten thousand before a hundred men, and those who
 had come by one road fleeing by a great number.</p>
@@ -25721,7 +25834,7 @@ had come by one road fleeing by a great number.</p>
 turning their backs towards the enemy, so as to afford a full
 mark for shooting, so that it will be very easy for the whole
 army to fall, being slain to a man; for a man will come
-forth,<ref n="2"/> says the word of God, leading a host and warring
+forth,<ref n="477.2"/> says the word of God, leading a host and warring
 furiously, who will subdue great and populous nations, God
 sending that assistance which is suitable for pious men; and
 
@@ -25740,7 +25853,7 @@ sistible strength of body, either of which things is formidable
 to the enemy, and if both qualities are united they are
 completely invincible. Moreover he says, “That some of the
 enemy will be unworthy of being defeated and of perishing by
-the hands of men, to which he will oppose swarms of wasps,<ref n="1"/>
+the hands of men, to which he will oppose swarms of wasps,<ref n="478.1"/>
 who shall fight for the pious, so as to overwhelm their enemies
 with shameful destruction; and he predicts, that he will not
 only always firmly retain the bloodless victory thus gained, but
@@ -25795,7 +25908,7 @@ thoroughly worthy of it, gladly fleeing from all association
 with intemperate and insolent men, that it may not pass by
 those persons whose existence is a common benefit to
 mankind, and supply those who live to the injury of their
-neighbours; for there is a passage in the word of God,<ref n="1"/> that, “on
+neighbours; for there is a passage in the word of God,<ref n="479.1"/> that, “on
 those who observe the sacred commands of God, the heaven
 will shower down seasonable raius, and the earth will bring
 forth for them abundance of all kinds of fruits, the champaign
@@ -26006,7 +26119,7 @@ which no one will do wrong to pronounce more desirable than
 any return.</p>
 
 
-<p><milestone unit="chapter" n="20"/>These, then, of which we have already spoken, ara
+<p><milestone unit="chapter" n="20"/>These, then, of which we have already spoken, are
 
 
 what are called external goods, victory over one’s enemies,
@@ -26015,8 +26128,10 @@ those good things which belong to peace, riches, and honours,
 and authorities, and the praises which always follow those who
 are successful, as they are extolled by every mouth both of
 friends and enemies, by the one through fear, and by the
-others out of good will.
-+ We must now proceed to speak of what is more nearly
+others out of good will.</p>
+
+
+  <p>We must now proceed to speak of what is more nearly
 connected with us than these things, namely, about those things
 which affect the body. The lawgiver says, then, that a perfect
 freedom from disease in every respect, both privately and
@@ -26122,7 +26237,7 @@ the lightest of evils, namely, poverty and indigence, and a
 want of all necessary things, and a participation in every kind
 of destitution ; for, says he, “The enemy shall lay waste the
 corn-fields before they are ripe, and when the corn is ripened
-they shall suddenly come and reap it.”<ref n="1"/> Thus causing a
+they shall suddenly come and reap it.”<ref n="485.1"/> Thus causing a
 twofold calamity, famine to their friends and abundance to their
 enemies ; for the prosperity of one’s enemies is more, or, at all
 events, not less painful than one’s own misfortunes.</p>
@@ -26185,7 +26300,7 @@ when beginning to grow, all things destructive of the fruit when
 beginning to ripen, and adapted to prevent it from ever coming
 to perfection. .
 For, says God, “I will make the heaven of brass for you,
-and the earth iron.”<ref n="1"/> Implying by this enigmatical expression
+and the earth iron.”<ref n="486.1"/> Implying by this enigmatical expression
 that neither of them shall accomplish the tasks which naturally
 belong to them and for which they were created; for how could
 iron ever bear ears of corn, or how could brass produce rain, of
@@ -26394,7 +26509,7 @@ being caught and destroyed by the ambuscades of their enemies.</p>
 <p><milestone unit="chapter" n="6"/>And if, after all these calamities, they are not chastened,
 but still proceed by crooked paths, and turn off from the
 Btraight roads which lead to truth, then cowardice and fear
-shall be established in their souls,<ref n="1"/> and they shall flee when
+shall be established in their souls,<ref n="490.1"/> and they shall flee when
 ho one pursues, and shall be routed and destroyed by false
 teports, as does often happen. The lightest sound of leaves
 falling through the air shall cause as great an agony of fear
@@ -26433,7 +26548,7 @@ very foundations wilsyhardly believe that they were ever
 inhabited, and they will turn the sudden misfortunes which befall
 men after brilliant instances of prosperity into a proverb,
 recording all the instances which are mentioned or passed
-over in history.<ref n="1"/></p>
+over in history.<ref n="491.1"/></p>
 
 
 <p>There shall also come upon them asthmas, and consumptions
@@ -26544,7 +26659,7 @@ are, and still more were, when alive, a grief and sorrow to their
 parents; and becoming young a second time, it will again be
 fertile as before, and will produce an irreproachable offspring,
 an improvement on its former progeny ; for she that was
-desolate, as the prophet says,<ref n="1"/> is now become happy in her children
+desolate, as the prophet says,<ref n="493.1"/> is now become happy in her children
 and the mother of a large family. Which prophetic saying
 has also an allegorical meaning, having reference to the zoul ;
 for when the family is very large, and the soul is full, alk
@@ -26876,7 +26991,7 @@ succeeding generation, in being sprung from the first wedded
 pair, from the first man and woman, who then for the first time
 came together for the propagation of offspring resembling
 themselves. But, nevertheless, when there were two persons
-so born, the elder of them endured to slay the younger ;<ref n="1"/> and,
+so born, the elder of them endured to slay the younger ;<ref n="499.1"/> and,
 having committed the great and most accursed crime of
 fratricide, he first defiled the ground with human blood. Now, what
 good did the nobility of his birth do to a man who had displayed
@@ -26909,7 +27024,7 @@ were overwhelmed by the increase and continual rising of the
 
 rapid flood), he alone was saved, with all his kindred, having
 received such a reward for his virtue that it is not possible to
-imagine a greater one.<ref n="1"/></p>
+imagine a greater one.<ref n="500.1"/></p>
 
 
 <p>This man, again, had three sons; and, though they had had
@@ -26919,7 +27034,7 @@ ridicule, laughing at him, and mocking and reviling him,
 because of an error which he committed unintentionally, and
 displaying to those who did not see it what he ought to have
 concealed, so as to bring disgrace on him who had begotten
-him.<ref n="2"/> Therefore, having now fallen from his brilliant nobility
+him.<ref n="500.2"/> Therefore, having now fallen from his brilliant nobility
 of birth and having become accursed, and having also become
 the beginning of misery to all his posterity, he suffered all those
 evils which it was fitting for a man to suffer who had
@@ -26970,7 +27085,7 @@ honourable, and true ; for which conduct he was very fairly
 condemned to change an immortal for a mortal existence, being
 deprived of blessedness and happiness, and therefore he
 naturally was changed so as to descend into a laborious and
-miserable life.<ref n="1"/></p>
+miserable life.<ref n="501.1"/></p>
 
 
 <p><milestone unit="chapter" n="4"/>But, however, let these men be set down as common
@@ -27100,14 +27215,14 @@ distinct perception, not indeed of his essence, for that is
 impossible, but of his existence, and of his over-ruling providence as
 far as it can be allowed to man to attain to such; for which
 reason he is the first person who is said to have believed in
-God,<ref n="1"/> since he was the first who had an unswerving and firm
+God,<ref n="503.1"/> since he was the first who had an unswerving and firm
 comprehension of him, apprehending that there is one supreme
 cause, and that he it is which governs the world by his
 providence, and all the things that are therein. And having
 attained to a most firm comprehension of the virtues, he
 acquired at the same time all the other virtues and
-‘lencies also, so that he was looked upon as a king by those
-excelwho received him, not indeed in respect of his appointments,
+excellencies also, so that he was looked upon as a king by those
+who received him,<ref n="503.2"/> not indeed in respect of his appointments,
 for he was only a private individual, but in his magnanimity
 and greatness of soul, inasmuch as he was of a royal spirit.</p>
 
@@ -27262,17 +27377,17 @@ of their ancestors; and of the others because, even if they
 could attain to the highest and most absolute perfection of all
 excellence, they would still derive no advantage themselves,
 becaus : of their not having irreproachable fathers and
-grandfathers.
+grandfathers.</p>
 
 
-‘Than which I do not koow that there can possibly be a
+<p>Than which I do not koow that there can possibly be a
 more mischievous doctrine, if there is no avenging punishment
 to follow those who being descended of virtuous parents have
 made themselves, and if on the contrary no honour is to be
 assigned to those who have become good though born of wicked
 parents, though the law judges each man by himself, and does
 not praise or blame any one with reference to the virtues or
-vices of his ancestors. 
+vices of his ancestors. </p>
 
 </div>
 
@@ -27280,7 +27395,7 @@ vices of his ancestors.
 <head>A TREATISE TO PROVE THAT EVERY MAN WHO IS VIRTUOUS IS ALSO FREE.</head>
 
 
-<milestone unit="chapter" n="1"/>My former treatise, O Theodotus, was intended to prove
+<p><milestone unit="chapter" n="1"/>My former treatise, O Theodotus, was intended to prove
 that every wicked man was a slave, and that proposition I
 fully established by many natural and unquestionable
 arguments; and this other treatise is akin to that one, being ita
@@ -27430,7 +27545,7 @@ as the first fruits of their earliest vigour to nothing in
 preference to education, in which it is well for a man to spend both
 his youth and his age; for as they say that vessels even when
 empty do nevertheless retain the odour of whatever was
-originally poured into them,<ref n="1"/> so also are the souls of the young
+originally poured into them,<ref n="509.1"/> so also are the souls of the young
 deeply impressed with the indelible character of those
 conceptions which were the first to be offered to their minds, which
 cannot be at all washed away by the torrent of any ideas which
@@ -27493,10 +27608,9 @@ Sophocles, which differs in no respect from the doctrines of the
 Pythagoreans—
 
 
-“@od is my ruler, and no mortal man.”<ref n="1"/></p>
+<l>“God is my ruler, and no mortal man.”</l><ref n="510.1"/>
 
-
-<p>For, in real truth, that man alone is free who has God for his
+For, in real truth, that man alone is free who has God for his
 leader ; indeed, in my opinion, that man is even the ruler of
 all others, and has all the affairs of the earth committed to
 him, being, as it were, the viceroy of a great king, the mortal
@@ -27534,7 +27648,9 @@ desire for freédom, of which independence and
 spontaneousness of action are the most especial and inalienable
 inheritance ; and by some persons the poet is praised who composed
 this iambic—
-“No man’s a slave who does not fear to die,”<ref n="1"/></p>
+
+<l>“No man’s a slave who does not fear to die.”</l>
+<ref n="511.1"/></p>
 
 
 <p>as having had an accurate idea of the consequences of such
@@ -27587,7 +27703,7 @@ Shall quit their place, and darken neath the earth,
 
 
 And earth rise up and take the place of heaven,
-Before you wring from me a word of flattery.”<ref n="1"/></p>
+Before you wring from me a word of flattery.”<ref n="512.1"/></p>
 
 
 <p><milestone unit="chapter" n="5"/>I have before now seen among the competitors in the
@@ -27630,7 +27746,7 @@ immovable thing of a weight which is not easily agitated
 <note type="head">ON THE VIRTUOUS BEING ALSO FREE. 513</note>
 
 
-Accordingly the lawgiver of the Jews<ref n="1"/> represents the hands of
+Accordingly the lawgiver of the Jews<ref n="513.1"/> represents the hands of
 the wise man as heavy, intimating by this figurative expression
 the gravity of his actions, which are supported in no superficial
 but in a solid manner by his inflexible mind. Therefore, he
@@ -27644,7 +27760,7 @@ same manner the generality of men, being like so many cattle,
 stand in need of a guide and governor. And their proper
 governors are virtuous men, being placed in the position of
 shepherds to the multitude; for Homer is constantly in the
-habit of calling kings shepherds of their people.<ref n="2"/> But nature
+habit of calling kings shepherds of their people.<ref n="513.2"/> But nature
 has appropriated this appellation as more peculiarly belonging
 to the good, since the wicked are rather tended by others than
 occupied in serving them; for they are led captive by strong
@@ -27774,12 +27890,14 @@ freedom of which the virtuous man is in the enjoyment from other
 circumstances.
 
 
-“No slave can e’er true happiness enjoy.”<ref n="1"/>
+<l>“No slave can e’er true happiness enjoy.”</l>
+
+<ref n="515.1"/>
 For what can be more miserable than to have no power over
 anything, not even over one’s self? But then a man is happy,
 inasmuch as he bears within himself the foundation and
 complement of virtue and excellence, in which consists the
-supreme power over all things,<ref n="2"/> ... ... so that beyond all
+supreme power over all things,<ref n="515.2"/> ... ... so that beyond all
 controversy and of necessity the virtuous man is free.</p>
 
 
@@ -27791,7 +27909,7 @@ of God are free? unless indeed one can think it consistent to
 is not known where it comes from if it is one.</note>
 
 
-<note n="515.2"></note>+ There is a considerable hiatus in the text here.
+<note n="515.2"> There is a considerable hiatus in the text here.
 
 </note>
 
@@ -27801,7 +27919,7 @@ is not known where it comes from if it is one.</note>
 
 
 
-<p>attribute to the companions of kings, not only freedom but
+attribute to the companions of kings, not only freedom but
 even at times a great degree of authority, when they commit
 magistracies to them, and when they, in consequence, fulfil
 the offices of subordinate rulers; and yet, at the same time, to
@@ -27962,7 +28080,7 @@ comfort by reason of the excessive greatness of the evil.</p>
 <note type="head">ON THE VIRTUOUS BEING ALSO FREE. 519</note>
 
 
-were from the fountain of the legislation of the Jews,<ref n="1"/> in the
+were from the fountain of the legislation of the Jews,<ref n="519.1"/> in the
 history of which it is recorded that in a case where there were
 two brothers, the one temperate and the other intemperate,
 the common father of them both, taking pity on the
@@ -28106,7 +28224,7 @@ year by sailors. And yet, what need is there, either cf long
 journeys over the land, or of long voyages, for the sake of
 investigating and seeking out virtue, the roots of which the Creator
 has laid not at any great distance, but so near, as the wise
-lawgiver of the Jews says,<ref n="1"/> “They are in thy mouth, and in
+lawgiver of the Jews says,<ref n="521.1"/> “They are in thy mouth, and in
 thy heart, and in thy hands;” intimating by these figurative
 expressions the words, and actions, and designs of men ; all
 of which stand in need of careful cultivation.</p>
@@ -28362,7 +28480,7 @@ forgotten miseries endured by those whom they oppressed :
 and yet no one, not even of those immoderately cruel tyrants,
 nor of the more treacherous and hypocritical oppressors was
 ever able to bring any real accusation against the multitude
-of those called Essenes or Holy.<ref n="1"/> But everyone being
+of those called Essenes or Holy.<ref n="526.1"/> But everyone being
 subdued by the virtue of these men, looked up to them as free by
 nature, and not subject to the frown of any human being, and
 have celebrated their manner of messing together, and their
@@ -28459,7 +28577,7 @@ Greeks and barbarians are equally bred up almost from their
 very cradles, and by which they are improved in their
 dispositions, changing everything in their souls which is adulterated
 by a blameable way of bringing up and of living, into good
-coinage ; accordingly just see what Hercules says in Euripides.<ref n="1"/>
+coinage ; accordingly just see what Hercules says in Euripides.<ref n="528.1"/>
 
 
 <l>“Yes, burn and scorch my flesh, and glut your hate,</l>
@@ -28623,10 +28741,10 @@ another, and suffering the same things, did not desist from the
 contest till they both fell dead.
 
 
-<l>“My too brave son, thy courage will destroy thee,”<ref n="1"/></p></l>
+<l>“My too brave son, thy courage will destroy thee,”<ref n="531.1"/></l>
 
 
-<p>some one may say with reference’to such persons. However is
+some one may say with reference’to such persons. However is
 the death of such combatants glorious when it is encountered
 for the sake of some wild olives and parsley-leaves, and must
 it not be much more so when endured for the sake of freedom,
@@ -28793,7 +28911,7 @@ other, replied—
 
 
 <l>I neither care for you, nor fear your wrath</l>
-<l>And angry threats.”<ref n="1"/></l>
+<l>And angry threats.”<ref n="534.1"/></l>
 
 
 For noble souls have something authoritative within them, and
@@ -28937,19 +29055,19 @@ And it is for this reason that the most sharp-sighted of all
 the Greek nations, namely, the Athenians (for what the pupil
 is to the eye, or reasoning to the soul, that also is Athens to
 Greece), when they send out a solemn procession to the
-venerable goddesses,<ref n="1"/> never allow any slave whatever to take
+venerable goddesses,<ref n="536.1"/> never allow any slave whatever to take
 any part in it, but perform everything concerning it by the
 agency of free men and women who are accustomed to such
 duties, even then not taking any chance persons, but only such
 as have cultivated a blameless innocence of life; since the
 most excellent of the youths prepare the cakes for the feast,
 looking upon that office as conducing (which indeed it does)
-to their credit and honour. . .</p>
+to their credit and honour.</p>
 
 
 <p>And it happened not long ago, when some actors were
 representing a tragedy, and repeating those iambics of
-Euripides :<ref n="1"/>
+Euripides :<ref n="536.2"/>
 
 
 <note n="536.1"> The Furies.</note>
@@ -28994,7 +29112,7 @@ reference to her, says—
 
 
 <l>“ And tell me where’s the sacred beam</l>
-<l>That dared the dangerous Euxine stream ?”<ref n="1"/></l>
+<l>That dared the dangerous Euxine stream ?”<ref n="537.1"/></l>
 And we must not pay the slightest attention to threats and
 menaces which some persons hold out over even wise men, but
 we must say as Antigonides the flute-player did; for it is
@@ -29086,7 +29204,7 @@ by all kinds of accidental things, but, as the tragic poet has it,
 <l>And rule myself: well weighing all events</l>
 
 
-<l>By virtue’s standard.”<ref n="1"/></l>
+<l>By virtue’s standard.”<ref n="539.1"/></l>
 Accordingly also Bias, of Priene, is said, when Croesus
 threatened him, to have threatened him in return, in a most
 contemptuous manner, bidding him eat onions, by which figurative
@@ -29104,7 +29222,8 @@ is a good deal of propriety in the expression—
 
 
 <l>“ Never was heard of slave uprightly held,</l>
-<l>But stooping always with a downbent neck.” +</l>
+<l>But stooping always with a downbent neck.” </l>
+<ref n="539.2"/>
 
 
 For a crooked, and wily, and deceitful disposition, is a most
@@ -29185,7 +29304,14 @@ more that recommended by you than enjoined by the oracle
 
 
 To live in conformity to nature.”
-</p></div>
+</p>
+<note>LONDON’ PRINTED BY WM. OLOWES AND BONS, LIMITHD, STAMFORD STREET AND CHARING ROSS.</note>
+</div>
 
 
-LONDON’ PRINTED BY WM. OLOWES AND BONS, LIMITHD, STAMFORD STREET AND CHARING ROSS.
+
+</div>
+
+</body>
+</text>
+</TEI>
