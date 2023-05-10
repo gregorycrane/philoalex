@@ -9,32 +9,20 @@
         <funder>European Social Fund Saxony</funder>
         <principal>Gregory Crane</principal>
         <respStmt>
-          <persName xml:id="Jouve">Jouve</persName>
+          <persName xml:id="GRC">Gregory Crane</persName>
           <resp>OCR-ed, corrected and encoded the text</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Greta Franzini</persName>
-          <resp>Project Manager (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Simona Stoyanova</persName>
-          <resp>Project Assistant (University of Leipzig)</resp>
-        </respStmt>
-        <respStmt>
-          <persName>Bruce Robertson</persName>
-          <resp>Technical Advisor (Mount Allison University)</resp>
         </respStmt>
       </titleStmt>
 
       <publicationStmt>
-        <authority>University of Leipzig</authority>
-        <idno type="filename">philo_4_1855.xml</idno>
+        <authority>Tufts University</authority>
+        <idno type="filename">philo_3_1855.xml</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
-        <date>2014</date>
-        <publisher>University of Leipzig</publisher>
-        <pubPlace>Germany</pubPlace>
+        <date>2023</date>
+        <publisher>Tufts University</publisher>
+        <pubPlace>Medford, MA, USA</pubPlace>
       </publicationStmt>
 
       <sourceDesc>
@@ -47,27 +35,42 @@
                 </persName>
               </editor>
               <author>Philo Alexandrinus</author>
-              <title>On the Contemplative Life, or on the Virtues of Suppliants</title>
-              <title>On the Incorruptibility of the World</title>
-              <title>Against Flaccus</title>
-              <title>On the Virtues and on the Office of Ambassadors. Adressed to Caius</title>
-              <title>Concerning the World</title>
-              <title>The Fragments of the Lost Works</title>
-              <title>Fragments extracted from the Parallels of John of Damascus</title>
-              <title>Fragments from a Monkish Manuscript</title>
-              <title>Fragments preserved by Antonius</title>
-              <title>Fragments from an Anonymous Collection in the Bodleian Library at Oxford</title>
-              <title>Fragments from an Unpublished Manuscript in the Library of the French King</title>
-              <title>A Volume of Questions, and Solutions to those Questions, which arise in Genesis</title>
+
+              <title>On the Life of Moses, that is to say, on the Theology and Prophetic Uffice of Moses: Book I</title>
+<title>On the Life of Moses: Book II</title>
+
+<title>On the Life of Moses: Book III</title>
+<title>Concerning the Ten Commandments, which are the Heads ofthe Law </title>
+<title>On Gireumecision </title>
+<title>On Monarchy: BookI</title>
+<title>On Monarchy: Book II</title>
+<title>On the Question, What the Rewards and Honours are which belong to the Priests </title>
+<title>On Animals fit for Sacrifice, or on Victims </title>
+<title>On those who offer Sacrifice </title>
+<title>On the Commandment that the Wages of § a Harlot are not to be received in the Sacred Treasury « </title>
+<title>On the Special Laws which are referred to Three Articles of the Decalogue, namely, the Third, Fourth, and Fifth ; about Oaths, and the Reverence due to them; about the Holy Sabbath; about the Honour to be paid to Parents </title>
+<title>To show that the Festivals are Ten in Number </title>
+<title>On the Festival of the Basket of First-Fruits </title>
+<title>On the Honour commanded to be pa‘d to Parents </title>
+<title>On those Special Laws which are referrible to Two Commandments in the Decalogue, the Sixth and Seventh, against Adulterers and all Lewd Persons, and against Murderers and all Violence</title>
+<title>On those Special Laws which are contained under and have reference to the Eighth, Ninth, and Tenth Commandments</title>
+<title>On Justice </title>
+<title>On the Creation of Magistrates soe ee we ew </title>
+<title>On Three Virtues, that is to say, on Courage, Humanity, and Repentance</title>
+<title>On Rewards and Punishments </title>
+<title>On Curses </title>
+<title>On Nobility </title>
+<title>To Prove that every Man who i ig virtuous is also free </title>
+
               <imprint>
                 <publisher>Henry G. Bohn</publisher>
                 <pubPlace>London</pubPlace>
                 <date>1855</date>
               </imprint>
-              <biblScope unit="volume">4</biblScope>
+              <biblScope unit="volume">3</biblScope>
             </monogr>
             <ref
-              target="https://archive.org/details/worksphilojudaeu04philuoft"
+              target="https://hdl.handle.net/2027/mdp.39015039464667"
               >Internet Archive</ref>
 
           </biblStruct>
@@ -23827,18 +23830,17 @@ find an asylum, especially if without any guile he has come to
 offer honest service. And if he cannot obtain this protection,
 at all events let him be sold to some one else ; for it is
 uncertain what may be the effect of his change of masters, and an
-uncertain evil is easier to bear than a confessed one.”<ref n="440.1"/>
+uncertain evil is easier to bear than a confessed one.”
 
 
 <milestone unit="chapter" n="17"/>These, then, are the ordinances which he appoints
 to be observed concerning one’s own relations, and strangers,
 and friends, and enemies, and slaves, and free men, and in
 short respecting the whole of the human race. And moreover,
-he extends his priuciples of humanity and compassion even to
+he extends his principles of humanity and compassion even to
 
 
-<note n="440.1"> Exodus xxiii. 19: GRC: I can't see where this fits I leave this note here in case it can be fixed at a later date.
-</note>
+
 
 
 <pb n="441"/>
@@ -23851,7 +23853,7 @@ domestic animals, with reference to flocks of sheep, and of
 goats, and herds of oxen, he commands the people to abstain
 from using of those animals which are just born, or from
 taking them either for food or under pretence of sacrificing
-them. For he looked upon it as a proof of a cruel disposition
+them.<ref n="440.1"/> For he looked upon it as a proof of a cruel disposition
 to plot against such creatures the moment they are born, so as
 to cause an immediate separation between the offspring and
 the mother, for the sake of the pleasures of the belly, or rather
@@ -23890,7 +23892,7 @@ not for the whole time, still at all events for the first seven
 days, to rear on her milk, and render not unprofitable those
 fountains of milk which nature has bestowed upon her breasts,
 destroying that second bounty of hers which she has prepared
-
+<note n="441.1"> Exodus xxiii. 19.</note>
 
 <pb n="442"/>
 <note type="head">442 PHILO JUDZUS.</note>
