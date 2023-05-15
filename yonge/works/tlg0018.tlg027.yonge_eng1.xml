@@ -91,8 +91,7 @@
   </teiHeader>
   <text>
     <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg027.yonge">
-<head>A TREATISE TO PROVE THAT EVERY MAN WHO IS VIRTUOUS IS ALSO FREE.</head>
+<div type="textpart" subtype="edition" n="tlg0018.tlg027.yonge"><head>A TREATISE TO PROVE THAT EVERY MAN WHO IS VIRTUOUS IS ALSO FREE.</head>
 
 
 <p><milestone unit="chapter" n="1"/>My former treatise, O Theodotus, was intended to prove that every wicked man was a slave, and that proposition I fully established by many natural and unquestionable arguments; and this other treatise is akin to that one, being ita full brother both by the father's and the mother’s side, and being even, in some sort, a twin with it, since in it we will proceed to show that every virtuous man is free.</p>
@@ -744,7 +743,7 @@ And, before now, some persons in the excess of their confidence have brought
 
 
 
-</div>
+
 
 </body>
 </text>

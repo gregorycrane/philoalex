@@ -91,8 +91,7 @@
   </teiHeader>
   <text>
     <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg023.yonge">
-<head>A TREATISE CONCERNING THE TEN COMMANDMENTS, WHICH ARE THE HEADS OF THE LAW.</head>
+<div type="textpart" subtype="edition" n="tlg0018.tlg023.yonge"><head>A TREATISE CONCERNING THE TEN COMMANDMENTS, WHICH ARE THE HEADS OF THE LAW.</head>
 
 
 <p><milestone unit="chapter" n="1"/>I have in my former treatises set forth the lives of Moses and the other wise men down ‘to his time, whom the sacred scriptures point out as the founders and leaders of our nation, and as its unwritten\laws; I will now, as seems pointed out by the natural order of my subject, proceed to describe accurately the character of those laws which are recorded in writing, not omitting any allegorical meaning which may perchance be congealed beneath the plain language, from that natural love off more recondite and laborious
@@ -734,6 +733,7 @@
 <pb n="175"/>
 <note type="head">ON CIRCUMCISION. 175</note>
 
- For it is proper for all the ministers and lieutenants of God, just as for generals in war, to put in practice severe punishments against those deserters, who forsake the ranks of the just one; but it becomes the great King, that general safety should be ascribed to him, as preserving the universe in peace, and giving at all times, to all people, in all riches and abundance, all the blessings of peace: for, in truth, God is the president of peace, but his subordinate ministers are the chiefs of war.</p></div>
+ For it is proper for all the ministers and lieutenants of God, just as for generals in war, to put in practice severe punishments against those deserters, who forsake the ranks of the just one; but it becomes the great King, that general safety should be ascribed to him, as preserving the universe in peace, and giving at all times, to all people, in all riches and abundance, all the blessings of peace: for, in truth, God is the president of peace, but his subordinate ministers are the chiefs of war.</p>
+ </div>
 
 </body></text></TEI>

@@ -78,11 +78,8 @@ target="https://archive.org/details/worksphilojudaeu01philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg012.yonge">
-<head>
-<title type="main">A TREATISE ON THE WORDS THAT NOAH AWOKE FROM HIS WINE, OR ON SOBRIETY.</title>
-</head>
-<div type="textpart" subtype="section" n="1">
+<div type="textpart" subtype="edition" n="tlg0018.tlg012.yonge"><head><title type="main">A TREATISE ON THE WORDS THAT NOAH AWOKE FROM HIS WINE, OR ON SOBRIETY.</title></head>
+
 <p><milestone unit="chapter" n="1"/> Having examined in the preceding treatise what has been said by the lawgiver about wine and the nakedness which attends upon it, we will now begin to connect the the following essay with the statements advanced in that work.</p>
 <p>Now in the sacred scriptures we come to the following words immediately after the account we have just been examining, " And Noah awoke from his wine, and knew all that his younger son had done to him. "<ref n="500.1"/> Sobriety is confessed to be a most advantageous thing, not only for souls but also for bodies, for it drives away the diseases which arise from immoderate repletion, and it sharpens the outward senses to an exceeding degree of acuteness, and it altogether prevents
 <note n="500.1">Genesis ix. 23. </note>
@@ -171,7 +168,7 @@ thinking nothing beautiful but what is good, and looking upon all things, which 
 <p>HADDON, BROTHERS, AND CO., PRINTERS, CASTLE STREET, FINSBURY.</p>
 
 </div>
-</div>
+
 <pb n="-"/>
 <pb n="-"/>
 <pb n="-"/>

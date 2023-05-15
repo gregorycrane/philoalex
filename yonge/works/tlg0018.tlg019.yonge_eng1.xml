@@ -75,13 +75,9 @@ target="https://archive.org/details/worksphilojudaeu02philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg019.yonge">
-<head>
-<title type="main">A TREATISE ON THE DOCTRINE THAT DREAMS ARE SENT FROM GOD.</title>
-</head>
+<div type="textpart" subtype="edition" n="tlg0018.tlg019.yonge"><head><title type="main">A TREATISE ON THE DOCTRINE THAT DREAMS ARE SENT FROM GOD.</title></head>
 
-<div type="textpart" subtype="book" n="1">
-<head>BOOK I.</head>
+<div type="textpart" subtype="book" n="1"><head>BOOK I.</head>
 
 <p><milestone unit="chapter" n="1"/> The treatise before this one has contained our opinions on those visions sent from heaven which are classed under the first species; in reference to which subject we delivered our opinion that the Deity sent the appearances which are beheld by man in dreams in accordance with the suggestions of his own nature. But in this treatise we will, to the best of our power, describe those dreams which come under the second species.</p>
 <p>Now the second species is that in which our mind, being moved simultaneously with the mind of the universe, has appeared to be hurried away by itself and to be under the influence of divine impulses, so as to be rendered capable of comprehending beforehand, and knowing by anticipation some of the events of the future. Now the first dream which is akin to the species which I have been describing, is that which appeared on the ladder which reached up to heaven, and which was of this kind.</p>
@@ -457,10 +453,8 @@ is undoubtedly an offering to God, no longer meddling with anything unholy or pr
 <p>Why then, O my soul, do you any longer waste yourself in vain speculations and labours? and why do you not go as a pupil to the practiser of virtue, taking up arms against the passions, and against vain opinion, to learn from him the way to wrestle with them ? For as soon as you have learnt this art, you will become the leader of a flock, not of one which is destitute of marks, and of reason, and of docility, but of one which is well approved, and rational, and beautiful, of which, if you become the leader, you will pity the miserable race of mankind, and will not cease to reverence the Deity; and you will never be weary of blessing God, and moreover you will engrave hymns suited to your sacred subject upon pillars, that you may not only speak fluently, but may also sing musically the virtues of the living God ; for by these means you will be able to return to your father's house, being delivered from a long and profitless wandering in a foreign land.</p>
 </div>
 
-<div type="textpart" subtype="book" n="2">
-<ab>
-<title type="sub">BOOK II.</title>
-</ab>
+<div type="textpart" subtype="book" n="2"><head>BOOK II.</head>
+
 <p><milestone unit="chapter" n="1"/> In describing the third species of dreams which are sent from God, we very naturally call on Moses as an ally, in order that as he learnt, having previously been ignorant, so he may instruct us who are also ignorant, concerning these signs, illustrating each separate one of them.
 
 <note n="344.1">I Samuel i. 28. </note>
@@ -834,6 +828,5 @@ have been led oil to commit by folly, giving ear to their new counsellor, which 
 altar, entreating with prayers, and supplications, and sacrifices, that it may only obtain pardon.</p>
 <p><milestone unit="chapter" n="46"/> After this who can fairly raise the question why the historian of the scriptures has spoken of the river of Egypt only as having banks and has made no such mention of the Euphrates or of any other of the sacred rivers; for here he says, " Thou shalt stand in the way to meet him by the bank of the river." And yet perhaps some persons in a spirit of ridicule will say that it is not right to bring such matters as these forward for investigation, for that it rather displays a spirit of cavilling than does any good. But I imagine that such things, like sweetmeats, are prepared in the sacred scriptures, for the improvement of those who read them, and that we ought not to condemn the curiosity of those who investigate such matters, but that we should rather blame their indolence if they did not investigate them.</p>
 <p>For our present discussion is not about the history of rivers but about ways of life, which are compared to the streams of rivers, running iu opposite directions to one another. For the life of the good man consists in actions; but that of the wicked man is seen to consist only in worlds. And speech in the tongue, and mouth, and lips, and<ref n="396.1"/></p>
-</div>
-</div>
+</div></div>
 </body></text></TEI>
