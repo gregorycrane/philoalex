@@ -45,16 +45,9 @@
 </persName>
 </editor>
 <author>Philo Alexandrinus</author>
-<title>On the Confusion of Languages</title>
-<title>On the Migration of Abraham</title>
+
 <title>On the question, Who is the Heir of Divine Things</title>
-<title>On the Meeting for the sake of receiving Instructions</title>
-<title>On Fugitives</title>
-<title>On the question why certain Names in the Holy Scriptures are changed</title>
-<title>On the doctrine that Dreams are sent from God. Book I</title>
-<title>On the doctrine that Dreams are sent from God. Book II</title>
-<title>On the Life of the Wise Man made perfect by Instruction; or, on the Unwritten Law, that is to say, on Abraham</title>
-<title>On the Life of a Man occupied with Affairs of State; or, on Joseph</title>
+
 <imprint>
 <publisher>George Bell and Sons</publisher>
 <pubPlace>London</pubPlace>
@@ -79,7 +72,8 @@ target="https://archive.org/details/worksphilojudaeu02philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg015.yonge"><head><title type="main">A TREATISE ON THE QUESTION WHO IS THE HEIR OF DIVINE THINGS</title></head>
+    <pb n="94"/>
+    <div type="textpart" subtype="edition" n="tlg0018.tlg015.yonge"><head><title type="main">A TREATISE ON THE QUESTION WHO IS THE HEIR OF DIVINE THINGS</title></head>
 <div type="textpart" subtype="section" n="1">
 <p>
 

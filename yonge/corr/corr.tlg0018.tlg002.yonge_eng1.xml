@@ -45,19 +45,8 @@
 </persName>
 </editor>
 <author>Philo Alexandrinus</author>
-<title>On the Creation of the World</title>
 <title>On the Alegories of the Sacred Laws</title>
-<title>On the Cherubim; and on the Flaming Sword; and on the First-Born Child of Man, Cain</title>
-<title>Of Cain and his Birth</title>
-<title>On the Sacrifice of Abel and Cain</title>
-<title>On the Principle that the EWorse is accustomed to be always plotting against the Better</title>
-<title>On the Posterity of Cain</title>
-<title>On the Giants</title>
-<title>On the Unchangeableness of God</title>
-<title>On the Tilling of the Earth by Noah</title>
-<title>About the Planting of Noah</title>
-<title>On Drunkenness</title>
-<title>On Sobriety</title>
+
 <imprint>
 <publisher>George Bell and Sons</publisher>
 <pubPlace>London</pubPlace>
@@ -73,6 +62,8 @@ target="https://archive.org/details/worksphilojudaeu01philuoft" >Internet Archiv
 </fileDesc>
 <encodingDesc>
 <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
+
+
 </encodingDesc>
 <profileDesc>
 <langUsage>
@@ -82,7 +73,9 @@ target="https://archive.org/details/worksphilojudaeu01philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
+    <pb n="52"/>
 <div type="textpart" subtype="edition" n="tlg0018.tlg002.yonge">
+    <head>On the Alegories of the Sacred Laws</head>
 <div type="textpart" subtype="book" n="1"><head><title type="main">THE FIRST BOOK OF THE TREATISE ON THE ALLEGORIES OF THE SACRED LAWS, AFTER THE WORK OF THE SIX DAYS OF CREATION.</title></head>
 <div type="textpart" subtype="section" n="1">
 <p>

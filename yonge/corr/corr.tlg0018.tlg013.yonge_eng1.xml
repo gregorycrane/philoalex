@@ -46,15 +46,7 @@
 </editor>
 <author>Philo Alexandrinus</author>
 <title>On the Confusion of Languages</title>
-<title>On the Migration of Abraham</title>
-<title>On the question, Who is the Heir of Divine Things</title>
-<title>On the Meeting for the sake of receiving Instructions</title>
-<title>On Fugitives</title>
-<title>On the question why certain Names in the Holy Scriptures are changed</title>
-<title>On the doctrine that Dreams are sent from God. Book I</title>
-<title>On the doctrine that Dreams are sent from God. Book II</title>
-<title>On the Life of the Wise Man made perfect by Instruction; or, on the Unwritten Law, that is to say, on Abraham</title>
-<title>On the Life of a Man occupied with Affairs of State; or, on Joseph</title>
+
 <imprint>
 <publisher>George Bell and Sons</publisher>
 <pubPlace>London</pubPlace>
@@ -79,18 +71,19 @@ target="https://archive.org/details/worksphilojudaeu02philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg013.yonge"><head><title type="main">A TREATISE ON THE CONFUSION OF LANGUAGES.</title></head>
+    <pb n="1"/>
+    <div type="textpart" subtype="edition" n="tlg0018.tlg013.yonge"><head><title type="main">A TREATISE ON THE CONFUSION OF LANGUAGES.</title></head>
 <div type="textpart" subtype="section" n="1">
 <p>
 
-<milestone unit="chapter" n="1"/> As to the preceding topics, what has been already said will be sufficient. We must next proceed to consider, and that in no slight or cursory manner, the philosophical account which Moses gives us of the confusion of languages; for he speaks in the following <corr>manner: "And</corr> all the earth had one pronunciation, and there was one language among all men. And it came to pass, as they were moving from the east, that they found a plain in the land of Shinar, and dwelt there. And one man said to his neighbour, Come, let us make bricks, and let <choice><sic>us burr</sic><corr>us burn</corr></choice> them with fire; and they had bricks for stone, and asphalt for mortar. And they said, Come, let us build ourselves a city, and a tower whose head shall reach to heaven; and let us make for ourselves a name, before we are scattered over the face of all the earth. And the Lord came down to see the city, and the tower, which the sons of men had builded. And the Lord said, Behold, all mankind is one race, and there is but one language among them all; and they have begun to do this thing, and now there will not fail unto them anything of all the things which they desire to do. Come, let us go down and confuse their language there, so that each may not understand the <choice><sic>voice A</sic><corr>voice of</corr></choice> his neighbour. And the Lord scattered them from thence over the face of all the earth, and they desisted from building the city, and the tower. On this account, the name of it was called Confusion, because there the Lord confused the languages of all the earth, and from thence the Lord scattered them over the face of all the earth." <ref n=".1"/>
+<milestone unit="chapter" n="1"/> As to the preceding topics, what has been already said will be sufficient. We must next proceed to consider, and that in no slight or cursory manner, the philosophical account which Moses gives us of the confusion of languages; for he speaks in the following <corr>manner: "And</corr> all the earth had one pronunciation, and there was one language among all men. And it came to pass, as they were moving from the east, that they found a plain in the land of Shinar, and dwelt there. And one man said to his neighbour, Come, let us make bricks, and let <choice><sic>us burr</sic><corr>us burn</corr></choice> them with fire; and they had bricks for stone, and asphalt for mortar. And they said, Come, let us build ourselves a city, and a tower whose head shall reach to heaven; and let us make for ourselves a name, before we are scattered over the face of all the earth. And the Lord came down to see the city, and the tower, which the sons of men had builded. And the Lord said, Behold, all mankind is one race, and there is but one language among them all; and they have begun to do this thing, and now there will not fail unto them anything of all the things which they desire to do. Come, let us go down and confuse their language there, so that each may not understand the <choice><sic>voice A</sic><corr>voice of</corr></choice> his neighbour. And the Lord scattered them from thence over the face of all the earth, and they desisted from building the city, and the tower. On this account, the name of it was called Confusion, because there the Lord confused the languages of all the earth, and from thence the Lord scattered them over the face of all the earth." <ref n="1.1"/>
 <milestone unit="chapter" n="2"/></p>
 </div>
 
 <div type="textpart" subtype="section" n="2">
 <p>Those who are discontented at the constitution under which their fathers have lived, being always eager to blame and to accuse the laws, being impious men, use these and similar instances as foundations for their impiety, <choice><sic>saying, .. Are</sic><corr>saying, "Are</corr></choice> ye even
 
-<note n=".1">Genesis xi 1. </note>
+<note n="1.1">Genesis xi 1. </note>
 <pb n="2"/>
 now speaking boastfully concerning your precepts, as if they contained the rules of truth itself? For, behold, the books which you call the sacred scriptures do also contain fables, at which you are accustomed to laugh, when you hear others relating them."</p>
 </div>

@@ -36,7 +36,7 @@
 <pubPlace>Germany</pubPlace>
 </publicationStmt>
 <sourceDesc>
-<listBibl xml:lang="la">
+<listBibl >
 <biblStruct>
 <monogr>
 <editor>
@@ -46,18 +46,7 @@
 </editor>
 <author>Philo Alexandrinus</author>
 <title>On the Creation of the World</title>
-<title>On the Alegories of the Sacred Laws</title>
-<title>On the Cherubim; and on the Flaming Sword; and on the First-Born Child of Man, Cain</title>
-<title>Of Cain and his Birth</title>
-<title>On the Sacrifice of Abel and Cain</title>
-<title>On the Principle that the EWorse is accustomed to be always plotting against the Better</title>
-<title>On the Posterity of Cain</title>
-<title>On the Giants</title>
-<title>On the Unchangeableness of God</title>
-<title>On the Tilling of the Earth by Noah</title>
-<title>About the Planting of Noah</title>
-<title>On Drunkenness</title>
-<title>On Sobriety</title>
+
 <imprint>
 <publisher>George Bell and Sons</publisher>
 <pubPlace>London</pubPlace>
@@ -82,7 +71,8 @@ target="https://archive.org/details/worksphilojudaeu01philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg001.yonge"><head><title type="main">A TREATISE THE ACCOUNT OF ON OF THE WORLD, THE CREATION AS GIVEN BY MOSES.</title></head>
+    <pb n="1"/>
+    <div type="textpart" subtype="edition" n="tlg0018.tlg001.yonge"><head><title type="main">A TREATISE On THE ACCOUNT OF THE CREATION OF THE WORLD, AS GIVEN BY MOSES.</title></head>
 <div type="textpart" subtype="section" n="1">
 <p>
 

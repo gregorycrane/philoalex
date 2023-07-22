@@ -49,18 +49,9 @@
 </persName>
 </editor>
 <author>Philo Alexandrinus</author>
-<title>On the Contemplative Life, or on the Virtues of Suppliants</title>
-<title>On the Incorruptibility of the World</title>
+
 <title>Against Flaccus</title>
-<title>On the Virtues and on the Office of Ambassadors. Adressed to Caius</title>
-<title>Concerning the World</title>
-<title>The Fragments of the Lost Works</title>
-<title>Fragments extracted from the Parallels of John of Damascus</title>
-<title>Fragments from a Monkish Manuscript</title>
-<title>Fragments preserved by Antonius</title>
-<title>Fragments from an Anonymous Collection in the Bodleian Library at Oxford</title>
-<title>Fragments from an Unpublished Manuscript in the Library of the French King</title>
-<title>A Volume of Questions, and Solutions to those Questions, which arise in Genesis</title>
+
 <imprint>
 <publisher>Henry G. Bohn</publisher>
 <pubPlace>London</pubPlace>
@@ -85,7 +76,8 @@ target="https://archive.org/details/worksphilojudaeu04philuoft" >Internet Archiv
 </teiHeader>
 <text>
 <body>
-<div type="textpart" subtype="edition" n="tlg0018.tlg030.yonge"><head><title type="main">A TREATISE AGAINST FLACCUS.</title></head>
+    <pb n="61"/>
+    <div type="textpart" subtype="edition" n="tlg0018.tlg030.yonge"><head><title type="main">A TREATISE AGAINST FLACCUS.</title></head>
 <div type="textpart" subtype="section" n="1">
 <p>
 
