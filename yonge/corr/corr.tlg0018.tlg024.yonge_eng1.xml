@@ -17,16 +17,14 @@
       <publicationStmt>
         <authority>Tufts University</authority>
         <idno type="filename">philo_3_1855.xml</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
+        <availability> <licence target="https://creativecommons.org/licenses/by-sa/4.0/">Available under a Creative Commons Attribution-ShareAlike 4.0 International License</licence>
         </availability>
         <date>2023</date>
         <publisher>Tufts University</publisher>
         <pubPlace>Medford, MA, USA</pubPlace>
       </publicationStmt>
 
-      <sourceDesc>
-        <listBibl xml:lang="la">
+      <sourceDesc> <listBibl xml:lang="la">
           <biblStruct>
             <monogr>
               <editor>
@@ -75,9 +73,7 @@
       <p>The following text is encoded in accordance with EpiDoc standards and with the CTS/CITE Architecture.</p>
     </encodingDesc>
 
-    <profileDesc>
-      <langUsage>
-        <language ident="en">English</language>
+    <profileDesc> <langUsage> <language ident="en">English</language>
       </langUsage>
     </profileDesc>
 
@@ -2017,11 +2013,7 @@ I should say to such a <corr>man, "You</corr> must be expecting one of two <choi
 </div>
 
 <div type="textpart" subtype="section" n="284">
-<p>for if he is giving thanks for benefits conferred upon him, he must take care not to behave like an ungrateful man,
-
-
-<note n="249.1"> Deuteronomy xxiii. 18.</note> becoming wicked, for the benefits are conferred on a virtuous man; or if his object be to secure the permanence of his present prosperity and happiness, and to be enabled to look forward to such for the future, he must still show himself worthy of his good fortune, and behave virtuously; or if he is asking to escape from evils, let him not commit actions deserving of correction and punishment.
-<note>GRC: end of text moved in the Cohn edition.</note>
+<p>for if he is giving thanks for benefits conferred upon him, he must take care not to behave like an ungrateful man, <note n="249.1"> Deuteronomy xxiii. 18.</note> becoming wicked, for the benefits are conferred on a virtuous man; or if his object be to secure the permanence of his present prosperity and happiness, and to be enabled to look forward to such for the future, he must still show himself worthy of his good fortune, and behave virtuously; or if he is asking to escape from evils, let him not commit actions deserving of correction and punishment. <note>GRC: end of text moved in the Cohn/Wendland edition.</note>
 
 <milestone unit="chapter" n="52"/>
 </p>
@@ -2089,37 +2081,7 @@ perhaps, because the bee which collects it is not a clean animal, inasmuch as it
 <p>And leaven is forbidden on account of the rising which it causes; this prohibition again having a figurative meaning, intimating that no one who comes to the altar ought at all to allow himself to be elated, being puffed up by insolence; but that such persons may keep their eyes fixed on the greatness of God,
 
 
-<note n="236.1">This refers to the same idea so beautifully expressed by Virgil,mGeorgics iv. 548.
-
-
-<l>Haud mora; continuo matris precepta facessit.</l>
-<l>Ad delubra venit, monstratas excitat aras;</l>
-<l>Quatuor eximios prestanti corpore tauros</l>
-<l>Ducit, et intacta totidem cervice juvencas.</l>
-<l>Post, ubi nona suos Aurora induxerat ortus,</l>
-<l>Inferias Orphei mittit, lucumque revisit.</l>
-<l>Hic vero subitum ac dictu mirabile monstrum</l>
-<l>Adspiciunt, liquefacta boum per viscera toto</l>
-<l>Stridere apes utero, et ruptis effervere costis</l>
-<l>Immensasque trahi nubes; jamque arbore summa</l>
-<l>Confluere, et lentis uvam demittere ramis.</l> Or as it is translated by Dryden,
-
-<l>"His mother's precepts he performs with care;</l>
-<l>The temple visits and adores with prayer;</l>
-<l>Four altars raises; from his herd he culls,</l>
-<l>For slaughter, four the fairest of his bulls;</l>
-<l>Four heifers from his female store he took,</l>
-<l>All fair and all unknowing of the yoke,</l>
-<l>Nine mornings thence with sacrifice and prayers,</l>
-<l>The powers atoned, he to the grove repairs.</l>
-<l>Behold a prodigy! for from within</l>
-<l>The broken bowels and the bloated skin,</l>
-<l>A buzzing noise of bees his ears alarms:</l>
-<l>Straight issue through the sides assembling swarms,</l>
-<l>Dark as a cloud they make a wheeling flight,</l>
-<l>Then on a neighbouring tree, descending light;</l>
-<l>Like a large cluster of black grapes they show,</l>
-<l>And make a large dependance from the bough."</l></note>
+<note n="236.1">This refers to the same idea so beautifully expressed by Virgil,mGeorgics iv. 548. <l>Haud mora; continuo matris precepta facessit.</l> <l>Ad delubra venit, monstratas excitat aras;</l> <l>Quatuor eximios prestanti corpore tauros</l> <l>Ducit, et intacta totidem cervice juvencas.</l> <l>Post, ubi nona suos Aurora induxerat ortus,</l> <l>Inferias Orphei mittit, lucumque revisit.</l> <l>Hic vero subitum ac dictu mirabile monstrum</l> <l>Adspiciunt, liquefacta boum per viscera toto</l> <l>Stridere apes utero, et ruptis effervere costis</l> <l>Immensasque trahi nubes; jamque arbore summa</l> <l>Confluere, et lentis uvam demittere ramis.</l> Or as it is translated by Dryden, <l>"His mother's precepts he performs with care;</l> <l>The temple visits and adores with prayer;</l> <l>Four altars raises; from his herd he culls,</l> <l>For slaughter, four the fairest of his bulls;</l> <l>Four heifers from his female store he took,</l> <l>All fair and all unknowing of the yoke,</l> <l>Nine mornings thence with sacrifice and prayers,</l> <l>The powers atoned, he to the grove repairs.</l> <l>Behold a prodigy! for from within</l> <l>The broken bowels and the bloated skin,</l> <l>A buzzing noise of bees his ears alarms:</l> <l>Straight issue through the sides assembling swarms,</l> <l>Dark as a cloud they make a wheeling flight,</l> <l>Then on a neighbouring tree, descending light;</l> <l>Like a large cluster of black grapes they show,</l> <l>And make a large dependance from the bough."</l></note>
 <pb n="237"/>
 and so obtain a proper conception of the weakness of all created beings, even if they be very prosperous; and that so cherishing correct notions they may correct the arrogant loftiness of their minds, and discard all treacherous self-conceit.
 
@@ -4226,23 +4188,7 @@ soul, and to dwell in the regions of the sun and moon, <choice><sic>and te</sic>
 <p>These enormities formerly took place among the Greeks in the case <choice><sic>of Cidipus,</sic><corr>of Oedipus,</corr></choice> the son of Laius, <ref n="306.1"/> and the actions were
 
 
-<note n="306.1"> This is the subject, in fact, of the Oedipus Tyrannus of Sophocles, and is dilated upon by Oedipus, where he says—
-<l>ὦ γάμοι γάμοι</l>
-<l>ἐφύσαθ᾽ ἡμᾶς καὶ φυτεύσαντες πάλιν</l>
-<l>ἀνεῖτε ταὐτὸν σπέρμα, κ' ἀπεδείξατε .</l>
-<l>πατέρας, ἀδελφοὺς παῖδας, αἷμ' ἐμφύλιον,</l>
-<l>νύμφας, γυναῖκας μητέρας τε, χ᾽ ὥποσα</l>
-
-<l>αἰσχιστ᾽ ἐν ἀνθρώποισιν ἔργα γίγνεται. </l>
-1408. And again he says—
-
-
-<l>τὴν τεκούσαν ἤροσεν</l>
-
-<l>ὅθεν περ αὐτὸς ἐσπάρη, κἀκ τῶν ἴσων</l>
-
-<l>ἐκτήσαθ᾽ ὑμᾶς ὧνπερ αὐτὸς ἐξέφυ. </l>
-1409. Philo alludes afterwards to the wars which are the subject of the Ἕπτ' ἐπὶ Θήβας of Aischylus.</note>
+<note n="306.1"> This is the subject, in fact, of the Oedipus Tyrannus of Sophocles, and is dilated upon by Oedipus, where he says— <cit><quote><l part="I">ὦ γάμοι γάμοι</l> <l>ἐφύσαθ᾽ ἡμᾶς καὶ φυτεύσαντες πάλιν</l> <l>ἀνεῖτε ταὐτὸν σπέρμα, κ' ἀπεδείξατε .</l> <l>πατέρας, ἀδελφοὺς παῖδας, αἷμ' ἐμφύλιον,</l> <l>νύμφας, γυναῖκας μητέρας τε, χ᾽ ὥποσα</l> <l>αἰσχιστ᾽ ἐν ἀνθρώποισιν ἔργα γίγνεται. </l></quote><bibl>Soph. OT 1403-1408</bibl></cit>. And again he says— <cit><quote><l>τὴν τεκούσαν ἤροσεν</l>  <l>ὅθεν περ αὐτὸς ἐσπάρη, κἀκ τῶν ἴσων</l> <l>ἐκτήσαθ᾽ ὑμᾶς ὧνπερ αὐτὸς ἐξέφυ. </l></quote><bibl>Soph. OT 1497-1499</bibl></cit>. Philo alludes afterwards to the wars which are the subject of the Ἕπτ' ἐπὶ Θήβας of Aischylus.</note>
 
 
 <pb n="307"/>
@@ -4452,18 +4398,7 @@ have desired wholly to change their condition for that of women, and have castra
 <p>and became very violent in her passion from her despair of being able to gratify it (for love which fails in its object is usually increased in no ordinary degree), so that at last she reported to Daedalus the affliction by which she was overwhelmed, and he was the most skilful of all workmen of his time. <ref n="314.1"/>
 
 
-<note n="314.1"> This story is alluded to by many poets, and especially by Virgil, Aeneid vi. 24.
-<l>Hic crudelis amor tauri, suppostaque furto</l>
-<l>Pasiphaé mistumque genus prolesque biformis</l>
-<l>Minotaurus inest, Veneris monumenta nefandea,</l> Or, as it is translated by Dryden—
-
-
-<l>"There too, in living sculpture, might be seen</l>
-<l>The mad affection of the Cretan queen:</l>
-<l>Then how she cheats her bellowing lover's eye:</l>
-<l>The rushing leap; the doubtful progeny:</l>
-<l>The lower part a beast, a man above;</l>
-<l>The monument of their polluted love."</l></note>
+<note n="314.1"> This story is alluded to by many poets, and especially by Virgil, Aeneid vi. 24. <l>Hic crudelis amor tauri, suppostaque furto</l> <l>Pasiphaé mistumque genus prolesque biformis</l> <l>Minotaurus inest, Veneris monumenta nefandea,</l> Or, as it is translated by Dryden— <l>"There too, in living sculpture, might be seen</l> <l>The mad affection of the Cretan queen:</l> <l>Then how she cheats her bellowing lover's eye:</l> <l>The rushing leap; the doubtful progeny:</l> <l>The lower part a beast, a man above;</l> <l>The monument of their polluted love."</l></note>
 
 
 <pb n="315"/>
@@ -4483,11 +4418,7 @@ And he, being very ingenious, so as by his contrivances to discover things undis
 
 
 
-<note n="315.1"> Ovid describes this animal more than once—
-<l>Dedalus ut clausit, conceptum crimine matris</l>
-<l>Semibovemque virum, semivirumque bovem. </l> A. A. ii, 24, And again—
-<l>Nec tua mactisset nodoso stipite Theseu,</l>
-<l>Ardua parte virum dextera, parte bovem. </l> Her, x, 101.</note>
+<note n="315.1"> Ovid describes this animal more than once— <l>Dedalus ut clausit, conceptum crimine matris</l> <l>Semibovemque virum, semivirumque bovem. </l> A. A. ii, 24, And again— <l>Nec tua mactisset nodoso stipite Theseu,</l> <l>Ardua parte virum dextera, parte bovem. </l> Her, x, 101.</note>
 
 
 <pb n="316"/>
@@ -5929,11 +5860,7 @@ But we ought by all means to look upon the invisible God as an unseen third part
 <p>Let, then, the man who commits this great wickedness and denies his deposit not be ignorant that he has deceived him who committed it to him of his hope, and that he is concealing a wicked disposition under specious language, and that he is hypocritically pretending a bastard sort of faith while in reality faithless, showing that all his pledges are worthless and all his oaths disregarded, so that he
 
 
-<note n="362.1"> This resembles Ovid—
-<l>Principiis obsta, sero medicina paratur,</l>
-<l>Cum mala per longas invaluere moras,</l> Which may be translated—
-<l>Check the first rise: all remedy's too late</l>
-<l>When long delay has made the mischief great.</l></note>
+<note n="362.1"> This resembles Ovid— <l>Principiis obsta, sero medicina paratur,</l> <l>Cum mala per longas invaluere moras,</l> Which may be translated— <l>Check the first rise: all remedy's too late</l> <l>When long delay has made the mischief great.</l></note>
 
 
 <pb n="363"/>
@@ -6318,38 +6245,7 @@ are in appearance good, but not in reality; a desire which produces grievous anx
 <p>for when a person perceives this passion of covetousness after having started up rapidly, then resting for a short time, either with a view to spread out its alluring toils, or because it has learnt to entertain a hope of succeeding in its object, he then retires to a longer distance uttering reproaches against it; but the passion itself, being left behind and coming too late to succeed, struggles, bearing a Tantalus-like punishment in its miserable future; for it is said that Tantalus, when he desired to obtain any liquor to drink, was not able to do so, as the water retreated from his lips, <ref n="374.1"/> and if he wished to gather any fruit, it all
 
 
-<note n="374.1"> The story of Tantalus is told in Homer, Od. xi. 581.
-<l n="582">καὶ μὴν Τάνταλον εἰσεῖδον κρατέρʼ ἄλγεʼ ἔχοντα</l>
-                  <l n="583">ἑστεῶτʼ ἐν λίμνῃ· ἡ δὲ προσέπλαζε γενείῳ·</l>
-                  <l n="584">στεῦτο δὲ διψάων, πιέειν δʼ οὐκ εἶχεν ἑλέσθαι·</l>
-                  <l n="585">ὁσσάκι γὰρ κύψειʼ ὁ γέρων πιέειν μενεαίνων,</l>
-                  <l n="586">τοσσάχʼ ὕδωρ ἀπολέσκετʼ ἀναβροχέν, ἀμφὶ δὲ ποσσὶ</l>
-                  <l n="587">γαῖα μέλαινα φάνεσκε, καταζήνασκε δὲ δαίμων.</l>
-                  <l n="588">δένδρεα δʼ ὑψιπέτηλα κατὰ κρῆθεν χέε καρπόν,</l>
-                  <l n="589">ὄγχναι καὶ ῥοιαὶ καὶ μηλέαι ἀγλαόκαρποι</l>
-                  <l n="590">συκέαι τε γλυκεραὶ καὶ ἐλαῖαι τηλεθόωσαι·</l>
-                  <l n="591">τῶν ὁπότʼ ἰθύσειʼ ὁ γέρων ἐπὶ χερσὶ μάσασθαι,</l>
-                  <l n="592">τὰς δʼ ἄνεμος ῥίπτασκε ποτὶ νέφεα σκιόεντα.</l> Or, as it is translated: by Pope,
-
-
-<l>"There Tantalus along the Stygian bounds,</l>
-<l>Pours out deep groans (with groans all hell resounds);</l>
-<l>Ev'n in the circling floods refreshment craves,</l>
-<l>And pines with thirst among a sea of waves;</l>
-<l>When to the water he his lip applies,</l>
-
-
-<l>Back from his lip the treacherous water flies.</l>
-<l>Above, beneath, around his hapless head,</l>
-<l>Trees of all kinds delicious fruitage spread;</l>
-<l>There figs, sky-dyed, a purple hue disclose,</l>
-<l>Green looks the olive, the pomegranate glows;</l>
-<l>There dangling pears exalting scents unfold,</l>
-<l>And yellow apples ripen into gold.</l>
-
-
-<l>The first he strives to seize; but blasts arise,</l>
-<l>Toss it on high, and whirl it to the skies."</l></note>
+<note n="374.1"> The story of Tantalus is told in Homer, Od. xi. 581. <l n="582">καὶ μὴν Τάνταλον εἰσεῖδον κρατέρʼ ἄλγεʼ ἔχοντα</l> <l n="583">ἑστεῶτʼ ἐν λίμνῃ· ἡ δὲ προσέπλαζε γενείῳ·</l> <l n="584">στεῦτο δὲ διψάων, πιέειν δʼ οὐκ εἶχεν ἑλέσθαι·</l> <l n="585">ὁσσάκι γὰρ κύψειʼ ὁ γέρων πιέειν μενεαίνων,</l> <l n="586">τοσσάχʼ ὕδωρ ἀπολέσκετʼ ἀναβροχέν, ἀμφὶ δὲ ποσσὶ</l> <l n="587">γαῖα μέλαινα φάνεσκε, καταζήνασκε δὲ δαίμων.</l> <l n="588">δένδρεα δʼ ὑψιπέτηλα κατὰ κρῆθεν χέε καρπόν,</l> <l n="589">ὄγχναι καὶ ῥοιαὶ καὶ μηλέαι ἀγλαόκαρποι</l> <l n="590">συκέαι τε γλυκεραὶ καὶ ἐλαῖαι τηλεθόωσαι·</l> <l n="591">τῶν ὁπότʼ ἰθύσειʼ ὁ γέρων ἐπὶ χερσὶ μάσασθαι,</l> <l n="592">τὰς δʼ ἄνεμος ῥίπτασκε ποτὶ νέφεα σκιόεντα.</l> Or, as it is translated: by Pope, <l>"There Tantalus along the Stygian bounds,</l> <l>Pours out deep groans (with groans all hell resounds);</l> <l>Ev'n in the circling floods refreshment craves,</l> <l>And pines with thirst among a sea of waves;</l> <l>When to the water he his lip applies,</l> <l>Back from his lip the treacherous water flies.</l> <l>Above, beneath, around his hapless head,</l> <l>Trees of all kinds delicious fruitage spread;</l> <l>There figs, sky-dyed, a purple hue disclose,</l> <l>Green looks the olive, the pomegranate glows;</l> <l>There dangling pears exalting scents unfold,</l> <l>And yellow apples ripen into gold.</l> <l>The first he strives to seize; but blasts arise,</l> <l>Toss it on high, and whirl it to the skies."</l></note>
 
 
 <pb n="375"/>
