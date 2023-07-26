@@ -29,12 +29,8 @@
 <listBibl xml:lang="la">
 <biblStruct>
 <monogr>
-<editor>
-<persName>
-<name xml:lang="en">Charles Duke Yonge</name>
-</persName>
-</editor>
-<author>Philo Alexandrinus</author>
+<author>Philo Judaeus</author>
+<editor role="translator">Charles Duke Yong</editor>
 
 <title>On the Life of Moses, that is to say, on the Theology and Prophetic Uffice of Moses: Book I</title>
 <title>On the Life of Moses: Book II</title>

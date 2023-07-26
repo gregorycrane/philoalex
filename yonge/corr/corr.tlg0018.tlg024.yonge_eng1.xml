@@ -27,13 +27,8 @@
       <sourceDesc> <listBibl xml:lang="la">
           <biblStruct>
             <monogr>
-              <editor>
-                <persName>
-                  <name xml:lang="en">Charles Duke Yonge</name>
-                </persName>
-              </editor>
-              <author>Philo Alexandrinus</author>
-
+              <author>Philo Judaeus</author>
+              <editor role="translator">Charles Duke Yong</editor>
 
 
 <title>On Circumecision </title>
